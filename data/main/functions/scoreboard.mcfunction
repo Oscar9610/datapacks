@@ -1,0 +1,1 @@
+scoreboard objectives add story dummy "劇情"
