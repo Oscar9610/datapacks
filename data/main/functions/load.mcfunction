@@ -9,3 +9,7 @@ stopsound @a record minecraft:background_music.mandragora
 #播放大廳背景音樂
 function music:mandragora
 
+schedule function main:timer 1s
+
+#傷害公式scoreboard
+function damage_formula:scoreboard
