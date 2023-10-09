@@ -9,3 +9,6 @@ execute as @a at @s if dimension game_map:spaceship_interior run effect give @s 
 function rpg_weapons:yanhau_sword_loop
 
 function damage_formula:loop
+
+#rightclick
+function rpg_weapons:right_click
