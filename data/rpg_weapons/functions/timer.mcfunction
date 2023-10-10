@@ -5,4 +5,5 @@ scoreboard players remove @e[scores={p1_yanhuo_sword_dot=1..}] p1_yanhuo_sword_d
 scoreboard players remove @e[scores={p2_yanhuo_sword_dot=1..}] p2_yanhuo_sword_dot 1
 scoreboard players remove @e[scores={p3_yanhuo_sword_dot=1..}] p3_yanhuo_sword_dot 1
 scoreboard players remove @e[scores={p4_yanhuo_sword_dot=1..}] p4_yanhuo_sword_dot 1
+
 schedule function yanhuo_sword:timer 1s
