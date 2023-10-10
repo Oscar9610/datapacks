@@ -23,4 +23,5 @@ execute as @s[scores={temp=1}] run playsound minecraft:entity.player.attack.weak
 execute as @s[scores={temp=2..}] run playsound minecraft:entity.player.attack.crit player @a ~ ~ ~ 100 0 1
 execute as @s[scores={temp=4..}] run playsound minecraft:entity.player.attack.sweep player @p ~ ~ ~ 200 0 1
 execute as @s[scores={temp=6..}] run playsound minecraft:item.trident.return player @p ~ ~ ~ 200 0 1
-scoreboard players set @s noob_sword_CD 30
+tellraw @s [{"text":"[","color":"green","bold":"true"},{"text":"橫砍","color":"white","bold":"true"},{"text":"] ","color":"green","bold":"true"},{"text":"發動！","color":"green","bold":"true"}]
+scoreboard players operation @s noob_sword_cd = @s noob_sword_max_cd

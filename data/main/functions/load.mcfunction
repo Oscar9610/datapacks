@@ -11,5 +11,7 @@ function music:mandragora
 
 schedule function main:timer 1s
 
+schedule function rpg_weapons:timer 1s
+
 #傷害公式scoreboard
 function damage_formula:scoreboard
