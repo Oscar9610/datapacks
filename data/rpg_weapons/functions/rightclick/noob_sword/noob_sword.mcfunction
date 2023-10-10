@@ -1,0 +1,26 @@
+scoreboard players set @s temp 0
+execute as @s positioned ^ ^ ^3 at @e[type=!minecraft:player,distance=..5] run scoreboard players set @s temp 1
+execute as @s at @s run title @s times 0 10 5
+execute as @s at @s run title @s title {"text":"\uE005"}
+execute as @s at @s run playsound minecraft:item.trident.throw voice @a ~ ~1 ~ 9999 1 1
+execute as @s at @s run playsound minecraft:item.shield.break voice @a ~ ~1 ~ 9999 0.5 1
+execute as @s at @s run playsound minecraft:item.trident.riptide_1 voice @a ~ ~1 ~ 9999 1 1
+execute as @s at @s run playsound minecraft:item.trident.riptide_1 voice @a ~ ~1 ~ 9999 0.5 1
+execute as @s at @s positioned ~ ~-2.5 ~ run particle minecraft:sweep_attack ^ ^ ^5 5 5 5 2 160
+execute as @s[scores={temp=1},tag=p1] positioned ^ ^ ^3 as @e[type=!minecraft:player,distance=..5] run function damage_formula:noob_sword/skill/p1_noob_sword_1 with storage minecraft:p1_skill_damage
+execute as @s[scores={temp=1},tag=p2] positioned ^ ^ ^3 as @e[type=!minecraft:player,distance=..5] run function damage_formula:noob_sword/skill/p2_noob_sword_1 with storage minecraft:p2_skill_damage
+execute as @s[scores={temp=1},tag=p3] positioned ^ ^ ^3 as @e[type=!minecraft:player,distance=..5] run function damage_formula:noob_sword/skill/p3_noob_sword_1 with storage minecraft:p3_skill_damage
+execute as @s[scores={temp=1},tag=p4] positioned ^ ^ ^3 as @e[type=!minecraft:player,distance=..5] run function damage_formula:noob_sword/skill/p4_noob_sword_1 with storage minecraft:p4_skill_damage
+
+execute as @s[scores={temp=1}] run particle minecraft:crit ~-0.5 ~-0.5 ~-0.5 0.5 0.5 0.5 0.5 500 force @a
+execute as @s[scores={temp=2}] run particle minecraft:crit ~-0.5 ~-0.5 ~-0.5 0.5 0.5 0.5 0.5 1000 force @a
+execute as @s[scores={temp=3}] run particle minecraft:crit ~-0.5 ~-0.5 ~-0.5 0.5 0.5 0.5 0.5 2000 force @a
+execute as @s[scores={temp=4}] run particle minecraft:crit ~-0.5 ~-0.5 ~-0.5 0.5 0.5 0.5 0.5 3000 force @a
+execute as @s[scores={temp=5..}] run particle minecraft:crit ~-0.5 ~-0.5 ~-0.5 0.5 0.5 0.5 0.5 4000 force @a
+execute as @s[scores={temp=6..}] run particle minecraft:enchanted_hit ~ ~ ~ ~ ~ ~ 0.5 4000 force @a
+
+execute as @s[scores={temp=1}] run playsound minecraft:entity.player.attack.weak player @a ~ ~ ~ 50 0 1
+execute as @s[scores={temp=2..}] run playsound minecraft:entity.player.attack.crit player @a ~ ~ ~ 100 0 1
+execute as @s[scores={temp=4..}] run playsound minecraft:entity.player.attack.sweep player @p ~ ~ ~ 200 0 1
+execute as @s[scores={temp=6..}] run playsound minecraft:item.trident.return player @p ~ ~ ~ 200 0 1
+scoreboard players set @s noob_sword_CD 30
