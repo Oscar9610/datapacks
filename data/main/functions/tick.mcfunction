@@ -11,3 +11,5 @@ function rpg_weapons:yanhau_sword_loop
 function rpg_weapons:noob_sword_loop
 
 function damage_formula:loop
+
+function music:loop
