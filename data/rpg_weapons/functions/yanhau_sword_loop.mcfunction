@@ -7,3 +7,5 @@ execute as @e[tag=p2_ring_of_fire,tag=ring_of_fire] at @s run scoreboard players
 execute as @e[tag=p3_ring_of_fire,tag=ring_of_fire] at @s run scoreboard players set @e[tag=!p3,distance=6..7,type=!minecraft:area_effect_cloud] p3_yanhuo_sword_dot 2
 execute as @e[tag=p4_ring_of_fire,tag=ring_of_fire] at @s run scoreboard players set @e[tag=!p4,distance=6..7,type=!minecraft:area_effect_cloud] p4_yanhuo_sword_dot 2
 
+scoreboard players set @a[scores={rightclick=1..}] rightclick 0
+scoreboard players set @a[scores={sneak=1..}] sneak 0

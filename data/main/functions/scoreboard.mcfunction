@@ -8,6 +8,9 @@ scoreboard objectives add p2_yanhuo_sword_dot dummy "P2焱火劍dot持續時間"
 scoreboard objectives add p3_yanhuo_sword_dot dummy "P3焱火劍dot持續時間"
 scoreboard objectives add p4_yanhuo_sword_dot dummy "P4焱火劍dot持續時間"
 scoreboard objectives add yanhuo_sword_max_dot dummy "焱火劍最大dot持續時間"
+scoreboard objectives add temp dummy "新手劍偵測附近怪物數"
+scoreboard objectives add .rdm dummy "隨機數"
+scoreboard objectives add noob_sword_rdm dummy "新手劍隨機數"
 scoreboard players set @a yanhuo_sword_cd 0
 scoreboard players set @a yanhuo_sword_max_cd 30
 scoreboard players set global yanhuo_sword_max_dot 10

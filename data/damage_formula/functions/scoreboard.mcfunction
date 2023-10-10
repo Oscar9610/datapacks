@@ -7,3 +7,4 @@ scoreboard objectives add percentage dummy "武器傷害百分比"
 #可以被力量狀態、裝備修飾符、武器修飾符等影響
 scoreboard players set yanhuo_sword percentage 5
 scoreboard players set yanhuo_sword_dot percentage 2
+scoreboard players set noob_sword_1 percentage 2

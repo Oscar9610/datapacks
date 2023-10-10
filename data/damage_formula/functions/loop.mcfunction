@@ -1,6 +1,7 @@
 execute as @e at @s run function player_attributes:attack
 execute as @e at @s run function player_attributes:yanhuo_sword/skill/yanhuo_sword
 execute as @e at @s run function player_attributes:yanhuo_sword/dot/yanhuo_sword_dot
+execute as @e at @s run function player_attributes:noob_sword/skill/noob_sword_1
 function monster_weakness:wind
 function monster_weakness:fire
 function monster_weakness:physical
