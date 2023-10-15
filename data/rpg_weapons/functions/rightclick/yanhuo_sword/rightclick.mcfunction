@@ -8,5 +8,5 @@ execute at @a[tag=p4,scores={sneak=0,rightclick=1..,yanhuo_sword_cd=0},nbt={Sele
 execute at @a[tag=p4,scores={sneak=0,rightclick=1..,yanhuo_sword_cd=0},nbt={SelectedItem:{tag:{yanhuo:1b,fire:1b}}}] anchored eyes positioned ^ ^ ^2.5 as @e[distance=..3,type=!player] at @s run scoreboard players operation @s p4_yanhuo_sword_dot = global yanhuo_sword_max_dot
 
 execute as @a[scores={sneak=0,rightclick=1..,yanhuo_sword_cd=0},nbt={SelectedItem:{tag:{yanhuo:1b,fire:1b}}}] at @s run function rpg_weapons:effect/yanhuo_sword/skill1_particle
-execute as @a[scores={sneak=0,rightclick=1..,yanhuo_sword_cd=0},nbt={SelectedItem:{tag:{yanhuo:1b,fire:1b}}}] run tellraw @s [{"text":"[","color":"green","bold":"true"},{"text":"熊熊烈火","color":"red","bold":"true"},{"text":"] ","color":"green","bold":"true"},{"text":"發動！","color":"green","bold":"true"}]
+execute as @a[scores={sneak=0,rightclick=1..,yanhuo_sword_cd=0},nbt={SelectedItem:{tag:{yanhuo:1b,fire:1b}}}] run tellraw @s [{"text":"[","color":"green","bold":true},{"text":"熊熊烈火","color":"red","bold":true},{"text":"] ","color":"green","bold":true},{"text":"發動！","color":"green","bold":true}]
 execute as @a[scores={sneak=0,rightclick=1..,yanhuo_sword_cd=0},nbt={SelectedItem:{tag:{yanhuo:1b,fire:1b}}}] run scoreboard players operation @s yanhuo_sword_cd = @s yanhuo_sword_max_cd
