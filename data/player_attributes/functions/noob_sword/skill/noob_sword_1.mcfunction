@@ -7,6 +7,12 @@ scoreboard players operation @s[tag=p1] skill_damage *= noob_sword_1 percentage
 scoreboard players operation @s[tag=p2] skill_damage *= noob_sword_1 percentage
 scoreboard players operation @s[tag=p3] skill_damage *= noob_sword_1 percentage
 scoreboard players operation @s[tag=p4] skill_damage *= noob_sword_1 percentage
+
+scoreboard players operation @s[tag=p1] skill_damage /= #percentage_modification percentage
+scoreboard players operation @s[tag=p2] skill_damage /= #percentage_modification percentage
+scoreboard players operation @s[tag=p3] skill_damage /= #percentage_modification percentage
+scoreboard players operation @s[tag=p4] skill_damage /= #percentage_modification percentage
+
 execute if entity @s[tag=p1] store result storage minecraft:p1_skill_damage noob_sword_1 int 1 run scoreboard players get @s[tag=p1] skill_damage
 execute if entity @s[tag=p2] store result storage minecraft:p2_skill_damage noob_sword_1 int 1 run scoreboard players get @s[tag=p2] skill_damage
 execute if entity @s[tag=p3] store result storage minecraft:p3_skill_damage noob_sword_1 int 1 run scoreboard players get @s[tag=p3] skill_damage

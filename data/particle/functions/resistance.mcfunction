@@ -1,0 +1,1 @@
+execute as @e[tag=resistance] at @s run function particle:resistance1

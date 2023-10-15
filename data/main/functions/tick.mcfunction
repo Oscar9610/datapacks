@@ -10,8 +10,18 @@ function rpg_weapons:yanhau_sword_loop
 
 function rpg_weapons:noob_sword_loop
 
+function rpg_weapons:noob_axe_loop
+
+function rpg_weapons:rightclick/wind_sword/rightclick
+
 function damage_formula:loop
 
 function music:loop
 
 function rpg_weapons:right_click
+
+function particle:resistance
+
+#interaction
+function interaction:emera
+function interaction:lena

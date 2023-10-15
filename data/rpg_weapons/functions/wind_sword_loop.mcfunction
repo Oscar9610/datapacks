@@ -1,0 +1,2 @@
+execute as @a[scores={wind_sword_cd=0,rightclick=1..},nbt={SelectedItem:{tag:{wind_sword:1b}}}] at @s run function rpg_weapons:rightclick/wind_sword/rightclick
+scoreboard players operation @s wind_sword_cd = @s wind_sword_max_cd
