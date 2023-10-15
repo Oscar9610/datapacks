@@ -1,0 +1,17 @@
+[
+    {
+      "function": "minecraft:copy_nbt",
+      "source": {
+        "type": "minecraft:context",
+        "target": "this"
+      },
+      "ops": [
+        {
+          "source": "{\"extra\":[{\"text\":\"test\"}]}",
+          "target": "pages",
+          "op": "append"
+        }
+      ]
+    }
+  ]
+  

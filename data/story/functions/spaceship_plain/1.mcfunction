@@ -14,10 +14,11 @@ execute if score spaceship_plain story matches 12 run tellraw @a {"text":"［希
 execute if score spaceship_plain story matches 12 run title @a times 20 40 20
 execute if score spaceship_plain story matches 12 run title @a title {"text":"\uE002"}
 execute if score spaceship_plain story matches 11 run tellraw @a {"text":"(你跟著希爾進入了飛船裡)"}
+execute as @a if score spaceship_plain story matches 11 run effect clear @s invisibility
 execute as @a at @s if score spaceship_plain story matches 11 in game_map:spaceship_interior run tp @s 0 61 -52 0 0
 execute if score spaceship_plain story matches 11 run title @a times 0 20 20
 execute if score spaceship_plain story matches 11 run title @a title {"text":"\uE002"}
-execute if score spaceship_plain story matches 10 run function story:spaceship_plain/2
+execute as @a at @s if score spaceship_plain story matches 11 run function story:spaceship_plain/2
 
 execute if score spaceship_plain story matches 10..26 run scoreboard players remove spaceship_plain story 1
 execute if score spaceship_plain story matches 13..26 run schedule function story:spaceship_plain/1 3s
