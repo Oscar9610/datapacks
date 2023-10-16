@@ -1,1 +1,1 @@
-execute as @a[scores={noob_sword_cd=0,rightclick=1..},nbt={SelectedItem:{tag:{noob:1b}}}] at @s run function rpg_weapons:rightclick/noob_sword/noob_sword
+execute as @a[scores={noob_sword_cd=..0,rightclick=1..},nbt={SelectedItem:{tag:{noob:1b}}}] at @s run function rpg_weapons:rightclick/noob_sword/noob_sword
