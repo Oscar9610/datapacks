@@ -21,7 +21,7 @@ function rpg_weapons:noob_sword_loop
 
 function rpg_weapons:noob_axe_loop
 
-function rpg_weapons:rightclick/wind_sword/rightclick
+function rpg_weapons:wind_sword_loop
 
 function damage_formula:loop
 
