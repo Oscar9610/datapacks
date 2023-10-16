@@ -25,6 +25,7 @@ scoreboard objectives add .rdm dummy "隨機數"
 scoreboard objectives add noob_sword_rdm dummy "新手劍隨機數"
 
 scoreboard objectives add abstract_i_wrote_you_a_letter_loop dummy "i_wrote_you_a_letter音樂循環"
+scoreboard objectives add player_count dummy "玩家人數"
 
 scoreboard players set @a yanhuo_sword_cd 0
 scoreboard players set @a yanhuo_sword_max_cd 30
