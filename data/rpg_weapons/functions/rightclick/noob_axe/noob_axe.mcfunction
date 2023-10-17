@@ -1,3 +1,4 @@
+#新手斧右鍵持行主動技動作
 effect give @a[distance=..4] minecraft:resistance 5 3 false
 playsound minecraft:item.totem.use voice @a ~ ~ ~ 1 1
 particle minecraft:scrape ~ ~1 ~ 0 0 0 15 30

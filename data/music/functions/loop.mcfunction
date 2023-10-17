@@ -1,1 +1,2 @@
+#音樂Loop專用
 execute as @a[scores={abstract_i_wrote_you_a_letter_loop=1}] at @s if dimension game_map:spaceship_interior run function music:abstract_i_wrote_you_a_letter with entity @s

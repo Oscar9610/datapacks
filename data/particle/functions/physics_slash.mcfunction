@@ -1,1 +1,2 @@
+#物傷刀光特效
 execute as @e[tag=physics_slash] at @s run function particle:physics_slash1
