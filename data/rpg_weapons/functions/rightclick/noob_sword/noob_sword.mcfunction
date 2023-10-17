@@ -1,3 +1,4 @@
+#新手劍右鍵持行主動技動作
 scoreboard players set @s temp 0
 execute as @s positioned ^ ^ ^3 at @e[type=!minecraft:player,distance=..5] run scoreboard players set @s temp 1
 execute as @s at @s run title @s times 0 10 5

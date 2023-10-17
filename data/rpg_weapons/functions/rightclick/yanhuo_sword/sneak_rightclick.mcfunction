@@ -1,3 +1,4 @@
+#焱火劍 蹲下+右鍵 持行副主動技動作
 execute as @a[tag=p1,scores={sneak=1..,rightclick=1..,yanhuo_sword_cd=0},nbt={SelectedItem:{tag:{yanhuo:1b,fire:1b}}}] at @s run summon minecraft:area_effect_cloud ~ ~ ~ {Tags:["p1_ring_of_fire","ring_of_fire"],Duration:60}
 execute as @a[tag=p2,scores={sneak=1..,rightclick=1..,yanhuo_sword_cd=0},nbt={SelectedItem:{tag:{yanhuo:1b,fire:1b}}}] at @s run summon minecraft:area_effect_cloud ~ ~ ~ {Tags:["p2_ring_of_fire","ring_of_fire"],Duration:60}
 execute as @a[tag=p3,scores={sneak=1..,rightclick=1..,yanhuo_sword_cd=0},nbt={SelectedItem:{tag:{yanhuo:1b,fire:1b}}}] at @s run summon minecraft:area_effect_cloud ~ ~ ~ {Tags:["p3_ring_of_fire","ring_of_fire"],Duration:60}

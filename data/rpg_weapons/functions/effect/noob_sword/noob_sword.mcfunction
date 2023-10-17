@@ -1,3 +1,4 @@
+#新手劍被動
 execute store result score @s noob_sword_rdm run random value 0..1
 
 execute as @s[scores={noob_sword_rdm=1}] run effect give @s instant_health 1 0

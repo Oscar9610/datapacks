@@ -1,3 +1,4 @@
+#焱火劍右鍵持行主動技動作
 execute at @a[tag=p1,scores={sneak=0,rightclick=1..,yanhuo_sword_cd=0},nbt={SelectedItem:{tag:{yanhuo:1b,fire:1b}}}] anchored eyes positioned ^ ^ ^2.5 as @e[distance=..3,type=!player] at @s run function damage_formula:yanhuo_sword/skill/p1_yanhuo_sword with storage minecraft:p1_skill_damage
 execute at @a[tag=p1,scores={sneak=0,rightclick=1..,yanhuo_sword_cd=0},nbt={SelectedItem:{tag:{yanhuo:1b,fire:1b}}}] anchored eyes positioned ^ ^ ^2.5 as @e[distance=..3,type=!player] at @s run scoreboard players operation @s p1_yanhuo_sword_dot = global yanhuo_sword_max_dot
 execute at @a[tag=p2,scores={sneak=0,rightclick=1..,yanhuo_sword_cd=0},nbt={SelectedItem:{tag:{yanhuo:1b,fire:1b}}}] anchored eyes positioned ^ ^ ^2.5 as @e[distance=..3,type=!player] at @s run function damage_formula:yanhuo_sword/skill/p2_yanhuo_sword with storage minecraft:p2_skill_damage
