@@ -1,2 +1,0 @@
-playsound minecraft:block.anvil.place voice @s ~ ~1 ~ 1 1
-title @s actionbar [{"text":"[","color":"green","bold":"true"},{"text":"☆☆風力劍{風}","color":"dark_green","bold":"true"},{"text":"] ","color":"green","bold":"true"},{"text":"冷卻還有: ","color":"dark_red","bold":"true"},{"score":{"name":"@s","objective":"wind_sword_cd"},"color":"gold","bold":"true"},{"text":"s","color":"gold","bold":"true"}]
