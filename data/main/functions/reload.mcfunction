@@ -5,3 +5,6 @@ scoreboard players set worldtree_title story 0
 scoreboard players set spaceship_plain_2 story 0
 xp set @a 0 levels
 xp set @a 0 points
+
+#重製所有偵測事件專用的進度(advancement)
+advancement revoke @a only story:traded_rpg_weapons
