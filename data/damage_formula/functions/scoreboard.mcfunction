@@ -8,4 +8,7 @@ scoreboard objectives add percentage dummy "武器傷害百分比"
 scoreboard players set yanhuo_sword percentage 500
 scoreboard players set yanhuo_sword_dot percentage 200
 scoreboard players set noob_sword_1 percentage 200
+scoreboard players set water_sword_demon percentage 250
+
+#百分比倍率微調
 scoreboard players set #percentage_modification percentage 100

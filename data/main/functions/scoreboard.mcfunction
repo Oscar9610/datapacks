@@ -2,6 +2,9 @@ scoreboard objectives add story dummy "劇情"
 scoreboard objectives add rightclick minecraft.used:minecraft.carrot_on_a_stick "右鍵偵測"
 scoreboard objectives add sneak minecraft.custom:minecraft.sneak_time "蹲下偵測"
 
+#實體存在時間記分板
+scoreboard objectives add duration dummy "存在時間"
+
 #武器CD記分板
 scoreboard objectives add yanhuo_sword_cd dummy "焱火劍CD"
 scoreboard objectives add yanhuo_sword_max_cd dummy "焱火劍CD上限"
@@ -42,6 +45,7 @@ scoreboard players set @a noob_axe_cd 0
 scoreboard players set @a noob_axe_max_cd 25
 scoreboard players set @a wind_sword_cd 0
 scoreboard players set @a wind_sword_max_cd 25
+scoreboard players set @a duration 0
 
 #焱火劍最大Dot持續時間
 scoreboard players set global yanhuo_sword_max_dot 10

@@ -19,5 +19,3 @@ schedule function rpg_weapons:timer 1s
 schedule function rpg_weapons:effect/noob_sword/noob_axe 10s
 #傷害公式scoreboard
 function damage_formula:scoreboard
-
-say complete
