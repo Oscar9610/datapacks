@@ -3,6 +3,7 @@ execute if entity @s[tag=p1] store result score @s[tag=p1] skill_damage run scor
 execute if entity @s[tag=p2] store result score @s[tag=p2] skill_damage run scoreboard players get @s[tag=p2] player_attack
 execute if entity @s[tag=p3] store result score @s[tag=p3] skill_damage run scoreboard players get @s[tag=p3] player_attack
 execute if entity @s[tag=p4] store result score @s[tag=p4] skill_damage run scoreboard players get @s[tag=p4] player_attack
+
 scoreboard players operation @s[tag=p1] skill_damage *= noob_sword_1 percentage
 scoreboard players operation @s[tag=p2] skill_damage *= noob_sword_1 percentage
 scoreboard players operation @s[tag=p3] skill_damage *= noob_sword_1 percentage

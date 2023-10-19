@@ -6,7 +6,10 @@ function music:mandragora2
 execute as @a[scores={loop=1..}] run scoreboard players remove @s loop 1
 
 #飛船內部獲得無限加速I狀態
-execute as @a at @s if dimension game_map:spaceship_interior run effect give @s minecraft:speed 1 1 true
+execute as @a at @s if dimension game_map:spaceship_interior run effect give @s minecraft:speed 1 2 true
+
+#偵測盔甲座是否有Duration Tag標籤
+execute as @e[type=armor_stand,tag=Duration] run scoreboard players add @s duration 1
 
 #偵測玩家數量給Tag
 execute store result score global player_count run execute if entity @a
@@ -33,6 +36,8 @@ function music:loop
 function rpg_weapons:right_click
 
 function particle:resistance
+
+function system:elevator
 
 #interaction
 function interaction:emera
