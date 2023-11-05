@@ -1,1 +1,0 @@
-execute positioned -359 -59 -432 in game_map:orantes as @a[advancements={task:orantes/main_mission/go_orantes_city=true},distance=..14] run advancement grant @s only story:help_child

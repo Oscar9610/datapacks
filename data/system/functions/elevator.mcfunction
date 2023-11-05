@@ -1,6 +1,0 @@
-execute as @a[tag=!in_elevator] at @s if dimension game_map:spaceship_interior if biome ~ ~ ~ spaceship_plain:spaceship_elevator run tellraw @s {"text":"等等要到哪一層?","bold":true,"color":"yellow"}
-execute as @a[tag=!in_elevator] at @s if dimension game_map:spaceship_interior if biome ~ ~ ~ spaceship_plain:spaceship_elevator run tellraw @a {"text":"2樓(新手教學區&飛船設施區)","bold":true,"color":"green","clickEvent":{"action":"run_command","value":"/execute as @s at @s if dimension game_map:spaceship_interior if biome ~ ~ ~ spaceship_plain:spaceship_elevator run tp @s ~ ~20 ~"}}
-execute as @a[tag=!in_elevator] at @s if dimension game_map:spaceship_interior if biome ~ ~ ~ spaceship_plain:spaceship_elevator run tellraw @a {"text":"飛船入口(飛船外部)","bold":true,"color":"green","clickEvent":{"action":"run_command","value":"/execute as @s at @s if dimension game_map:spaceship_interior if biome ~ ~ ~ spaceship_plain:spaceship_elevator in game_map:orantes run tp @s -729 -61 51"}}
-
-execute as @a[tag=!in_elevator] at @s if dimension game_map:spaceship_interior if biome ~ ~ ~ spaceship_plain:spaceship_elevator run tag @s add in_elevator
-execute as @a[tag=in_elevator] at @s if dimension game_map:spaceship_interior unless biome ~ ~ ~ spaceship_plain:spaceship_elevator run tag @s remove in_elevator
