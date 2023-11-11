@@ -1,0 +1,1 @@
+function monster_system:scoreboard

@@ -1,0 +1,4 @@
+execute if entity @e[tag=boss1] as @e[type=player,gamemode=survival] at @s run summon arrow ~ ~7 ~ {Tags:["basketball_arrow"]}
+execute if entity @e[tag=boss1] as @e[type=player,gamemode=survival] at @s run summon zombie ~ ~70 ~ {DeathLootTable:"entity:no_loot_tables",Silent:1b,NoAI:0b,Tags:["basketball"],ArmorItems:[{},{},{},{id:"minecraft:bow",Count:1b,tag:{Unbreakable:1b,CustomModelData:1}}],ArmorDropChances:[0.085F,0.085F,0.085F,0.000F],active_effects:[{id:"minecraft:invisibility",amplifier:1b,duration:1000,show_particles:0b}]}
+schedule function skill:skill1-2 1s
+schedule function skill:skill1 5s

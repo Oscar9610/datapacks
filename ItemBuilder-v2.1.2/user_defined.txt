@@ -1,0 +1,46 @@
+- 效果與條件 1001-1020 保留用於使用者定義的條件，您可以在自己的資料包中定義這些條件。
+
+- 若要定義這些，請在資料包中使用下列檔案路徑：
+[YOUR_DATAPACK]/data/itb/functions/user_defined/effects/ud1.mcfunction
+[YOUR_DATAPACK]/data/itb/functions/user_defined/conditions/ud1.mcfunction
+[YOUR_DATAPACK]/data/itb/functions/user_defined/filters/ud1.mcfunction
+- 您可以從這些函數中呼叫其他函數
+
+- 使用下列命令從效果/條件/篩選器中檢索值。
+
+=======
+效果
+=======
+- 要檢索效果的值：
+記分板玩家獲得effect_value值
+
+- 檢索效果的 Value2：
+記分板玩家獲得effect_value2值
+
+- 要檢索效果是否被指定為沒有聲音或粒子：
+記分板玩家獲得effect_nosound值
+
+=========
+狀況
+=========
+- 要檢索條件的值：
+記分板玩家取得condition_value值
+
+- 要檢索條件的 Value2：
+記分板玩家獲得condition_value2值
+
+- 將條件設為 true：
+記分板玩家設定condition_result值1
+- 確保將其設為 1 或 0。不要使用任何其他值。
+
+=======
+過濾器
+=======
+- 檢索篩選器的值：
+記分板玩家取得filter_value值
+
+- 檢索過濾器的 Value2：
+記分板玩家取得filter_value2值
+
+- 執行過濾器：
+函數 itb:item/filter_run

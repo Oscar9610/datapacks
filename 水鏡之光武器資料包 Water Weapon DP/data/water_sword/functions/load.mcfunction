@@ -1,0 +1,2 @@
+function water_sword:scoreboard
+function water_sword:timer_1s

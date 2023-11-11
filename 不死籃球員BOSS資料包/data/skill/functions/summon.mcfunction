@@ -1,0 +1,1 @@
+summon zombie ~ ~ ~ {OnGround:1b,Silent:1b,Glowing:0b,NoAI:1b,Health:200f,Tags:["boss1"],HandItems:[{id:"minecraft:bow",Count:1b,tag:{Unbreakable:1b,CustomModelData:2}},{}],ArmorItems:[{},{},{},{id:"minecraft:bow",Count:1b,tag:{Unbreakable:1b,CustomModelData:3}}],Attributes:[{Name:generic.max_health,Base:200}]}

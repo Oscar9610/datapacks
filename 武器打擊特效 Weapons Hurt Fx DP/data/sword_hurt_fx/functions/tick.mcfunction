@@ -1,0 +1,1 @@
+function sword_hurt_fx:universal_sword

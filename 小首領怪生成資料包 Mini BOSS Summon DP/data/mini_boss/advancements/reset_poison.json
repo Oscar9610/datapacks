@@ -1,0 +1,11 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
+    }
+  },
+  "rewards": {
+    "function": "mini_boss:sealboss/sealboss-1/reset"
+  }
+}

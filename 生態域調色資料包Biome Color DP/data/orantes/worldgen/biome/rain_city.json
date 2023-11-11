@@ -1,0 +1,24 @@
+{
+  "temperature": 0.5,
+  "downfall": 0,
+  "has_precipitation": false,
+  "temperature_modifier": "none",
+  "creature_spawn_probability": 0,
+  "effects": {
+    "sky_color": 799552,
+    "fog_color": 1791594,
+    "water_color": 799552,
+    "water_fog_color": 26987,
+    "foliage_color": 26987,
+    "particle": {
+      "options": {
+        "type": "minecraft:dolphin"
+      },
+      "probability": 0.3
+    }
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": {},
+  "features": []
+}

@@ -1,0 +1,1 @@
+schedule function mini_boss:timer 1s

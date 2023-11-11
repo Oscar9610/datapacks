@@ -1,0 +1,16 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": {
+            "nbt": "{Tags:[\"poison_2\"]}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "mini_boss:sealboss/sealboss-2/kill"
+    }
+  }
+  
