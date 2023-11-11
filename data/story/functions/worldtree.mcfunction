@@ -1,6 +1,7 @@
 ## By 遊戲亡 Gamedier、 March、前面有一隻超可愛的狗勾
 
 ## 劇情
+execute if score worldtree story matches 21 run advancement grant @a only task:spaceship/main_mission/1
 execute if score worldtree story matches 21 run tellraw @a {"text":"【SKIP】(點擊跳過劇情對話) ","color":"light_purple","clickEvent":{"action":"run_command","value":"/execute if score worldtree story matches 14..21 run scoreboard players set worldtree story 13"}}
 execute if score worldtree story matches 20 run title @a times 20 60 20
 execute if score worldtree story matches 20 run title @a title {"text":"時空旅行者: 劍魔滅世篇"}

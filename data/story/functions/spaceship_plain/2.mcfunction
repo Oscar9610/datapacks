@@ -9,6 +9,7 @@ execute if score spaceship_plain story matches 5 run scoreboard players remove s
 execute if score spaceship_plain story matches 4 run tellraw @a {"text":"［希爾］我先去忙了，有問題可以去2樓的我房間找我喔！"}
 execute in game_map:spaceship_interior if score spaceship_plain story matches 4 run kill @e[tag=hill]
 execute if score spaceship_plain story matches 3 run tellraw @a {"text":"【目標】去主控中心找艾梅拉","color":"gold"}
+execute if score spaceship_plain story matches 3 run advancement grant @a only task:spaceship/main_mission/3
 execute if score spaceship_plain story matches 2 run scoreboard players remove spaceship_plain story 1
 execute if score spaceship_plain story matches 1 run scoreboard players remove spaceship_plain story 1
 
