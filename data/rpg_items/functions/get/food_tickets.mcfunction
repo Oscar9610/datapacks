@@ -1,1 +1,0 @@
-give @p paper{HideFlags:1,display:{Name:'[{"text":"","italic":false},{"text":"食物兌換券","color":"white","bold":true}]',Lore:['[{"text":"","italic":false},{"text":"消耗性道具","color":"dark_gray"}]','[{"text":"","italic":false},{"text":"可以到飛船一樓兌換食物","color":"gray"}]','[{"text":"","italic":false}]']},Enchantments:[{id:"minecraft:unbreaking",lvl:1s}]} 1
