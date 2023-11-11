@@ -1,3 +1,4 @@
+execute if score spaceship_plain story matches 25 run advancement grant @a only task:spaceship/main_mission/1
 execute if score spaceship_plain story matches 25 run tellraw @a {"text":"［???］原來是這樣"}
 execute if score spaceship_plain story matches 24 run tellraw @a {"text":"［???］雖然說你的父母為了守護世界犧牲了自己"}
 execute if score spaceship_plain story matches 23 run tellraw @a {"text":"［???］但是我相信他們一定還在世界的其中一個角落看著你"}
