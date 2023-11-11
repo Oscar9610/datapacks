@@ -1,2 +1,0 @@
-execute as @e[type=minecraft:interaction,tag=statement_2] if score statement_go_back_to_old_home story matches 5 if data entity @s interaction.timestamp run function story:orantes/statement_go_back_to_old_home/2
-execute as @e[type=minecraft:interaction,tag=statement_2] if data entity @s interaction.timestamp run data remove entity @s interaction

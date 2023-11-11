@@ -1,1 +1,0 @@
-execute as @a at @s if block ~ ~ ~ water run effect give @s night_vision 1 255 true
