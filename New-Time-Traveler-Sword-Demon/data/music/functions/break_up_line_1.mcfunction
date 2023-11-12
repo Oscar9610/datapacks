@@ -1,0 +1,1 @@
+execute as @a in game_map:initial_plain run playsound minecraft:background_music.break_up_line_1 record @a
