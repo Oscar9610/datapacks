@@ -4,7 +4,7 @@ execute positioned -221 -58 -516 in game_map:orantes if score statement_go_back_
 execute positioned -221 -58 -516 in game_map:orantes if score statement_go_back_to_old_home story matches 16 run tp @a[tag=p3,distance=..30] -226 -54 -546 facing -222 -54 -546
 execute positioned -221 -58 -516 in game_map:orantes if score statement_go_back_to_old_home story matches 16 run tp @a[tag=p4,distance=..30] -223 -54 -543 facing -222 -54 -546
 execute positioned -222 -55 -546 in game_map:orantes if score statement_go_back_to_old_home story matches 16 run tellraw @a[distance=..20] {"text":"［希爾］ 陳述，你還好嗎"}
-execute positioned -222 -55 -546 in game_map:orantes if score statement_go_back_to_old_home story matches 17 run tellraw @a[distance=..20] {"text":"［陳述］謝謝你們，我現在感覺好多了。這個飾品真的對我很重要"}
+execute positioned -222 -55 -546 in game_map:orantes if score statement_go_back_to_old_home story matches 17 run tellraw @a[distance=..20] {"text":"［陳述］謝謝你們，我沒事。這個飾品真的對我很重要"}
 execute positioned -222 -55 -546 in game_map:orantes if score statement_go_back_to_old_home story matches 18 run tellraw @a[distance=..20] {"text":"［陳述］這是由祖先傳承下來的古老的飾品"}
 execute positioned -222 -55 -546 in game_map:orantes if score statement_go_back_to_old_home story matches 19 run tellraw @a[distance=..20] {"text":"［陳述］可以再關鍵時刻保護攜帶飾品的人"}
 execute positioned -222 -55 -546 in game_map:orantes if score statement_go_back_to_old_home story matches 20 run tellraw @a[distance=..20] {"text":"［陳述］這個飾品送給你們"}
