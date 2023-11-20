@@ -9,7 +9,7 @@ execute positioned -222 -55 -546 in game_map:orantes if score statement_go_back_
 execute positioned -222 -55 -546 in game_map:orantes if score statement_go_back_to_old_home story matches 14 run title @a[distance=..20] title {"text":"\uE002"}
 execute positioned -222 -55 -546 in game_map:orantes if score statement_go_back_to_old_home story matches 14 run function monster_wave:orantes/2/open
 execute if score statement_go_back_to_old_home story matches 15 run kill @e[tag=statement_2]
-execute if score statement_go_back_to_old_home story matches 15 run scoreboard players set #orantes_main stoey_stage 5
+execute if score statement_go_back_to_old_home story matches 15 run scoreboard players set #orantes_main story_stage 5
 
 execute if score statement_go_back_to_old_home story matches 9..15 run scoreboard players add statement_go_back_to_old_home story 1
 execute if score statement_go_back_to_old_home story matches 9..15 run schedule function story:orantes/statement_go_back_to_old_home/3 4s

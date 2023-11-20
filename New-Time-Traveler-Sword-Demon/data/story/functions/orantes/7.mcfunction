@@ -1,3 +1,7 @@
+#沿用story:orantes/6後面對話
+#Follow the dialogue behind story:orantes/6
+#劇情
+#story
 execute as @a[tag=p1] at @s if dimension game_map:orantes_dungeon if score orantes story matches 57 run tp @s -6 -62 -3 facing -9.5 -62.0625 -2.5
 execute as @a[tag=p2] at @s if dimension game_map:orantes_dungeon if score orantes story matches 57 run tp @s -6 -62 -1 facing -9.5 -62.0625 -2.5
 execute as @a[tag=p3] at @s if dimension game_map:orantes_dungeon if score orantes story matches 57 run tp @s -6 -62 -5 facing -9.5 -62.0625 -2.5
@@ -16,5 +20,7 @@ execute positioned -9 -62 -3 in game_map:orantes_dungeon as @a[distance=..20] if
 execute positioned -9 -62 -3 in game_map:orantes_dungeon as @a[distance=..20] if score orantes story matches 66 run tellraw @s {"text":"【目標】前往封印機關地點","color": "gold"}
 execute if score orantes story matches 66 run kill @e[tag=statement_grandpa_1]
 
+#循環偵測
+#loop
 execute if score orantes story matches 57..66 run scoreboard players add orantes story 1
 execute if score orantes story matches 57..66 run schedule function story:orantes/7 4s

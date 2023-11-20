@@ -1,10 +1,12 @@
-execute positioned -359 -57 -432 in game_map:orantes as @a[distance=..14] at @s if score #orantes_main stoey_stage matches 1 run spawnpoint @a -370 -58 -378
-execute positioned -359 -57 -432 in game_map:orantes as @a[distance=..14] at @s if score #orantes_main stoey_stage matches 1 run function story:orantes/2
-execute positioned -359 -57 -432 in game_map:orantes as @a[distance=..14] at @s if score #orantes_main stoey_stage matches 1 run scoreboard players set #orantes_main stoey_stage 2
+#主線Loop循環檔案偵測
+#Mainline Loop file detection
+execute positioned -359 -57 -432 in game_map:orantes as @a[distance=..14] at @s if score #orantes_main story_stage matches 1 run spawnpoint @a -370 -58 -378
+execute positioned -359 -57 -432 in game_map:orantes as @a[distance=..14] at @s if score #orantes_main story_stage matches 1 run function story:orantes/2
+execute positioned -359 -57 -432 in game_map:orantes as @a[distance=..14] at @s if score #orantes_main story_stage matches 1 run scoreboard players set #orantes_main story_stage 2
 
-execute as @a at @s if dimension game_map:orantes_dungeon if score #orantes_main stoey_stage matches 6 run scoreboard players set orantes story 30
-execute as @a at @s if dimension game_map:orantes_dungeon if score #orantes_main stoey_stage matches 6 run function story:orantes/6
-execute as @a at @s if dimension game_map:orantes_dungeon if score #orantes_main stoey_stage matches 6 run scoreboard players set #orantes_main stoey_stage 7
+execute as @a at @s if dimension game_map:orantes_dungeon if score #orantes_main story_stage matches 6 run scoreboard players set orantes story 30
+execute as @a at @s if dimension game_map:orantes_dungeon if score #orantes_main story_stage matches 6 run function story:orantes/6
+execute as @a at @s if dimension game_map:orantes_dungeon if score #orantes_main story_stage matches 6 run scoreboard players set #orantes_main story_stage 7
 
 execute as @a positioned -613 -58 -258 in game_map:orantes if entity @a[tag=p1,distance=..10] run advancement grant @a only story:orantes_add
 
