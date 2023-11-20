@@ -1,5 +1,5 @@
 scoreboard players set businessman_from_mars story 11
-scoreboard players set #businessman_from_mars stoey_stage 4
+scoreboard players set #businessman_from_mars story_stage 4
 effect give @a slowness 3 4 true
 effect give @a jump_boost 1 128 true
 

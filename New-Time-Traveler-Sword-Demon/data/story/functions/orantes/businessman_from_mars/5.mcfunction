@@ -1,4 +1,4 @@
-execute if score businessman_from_mars story matches 6 run scoreboard players set #businessman_from_mars stoey_stage 6
+execute if score businessman_from_mars story matches 6 run scoreboard players set #businessman_from_mars story_stage 6
 execute as @a if score businessman_from_mars story matches 6 run clear @a carrot_on_a_stick{Unbreakable:1b,gas_can:2b,CustomModelData:20,HideFlags:7,display:{Name:'[{"text":"","italic":false},{"text":"加油箱(滿)","color":"dark_purple"}]',Lore:['[{"text":"","italic":false},{"text":"任務道具","color":"dark_gray"}]','[{"text":"","italic":false},{"text":"裝滿油的加油箱","color":"gray"}]']}}
 execute if score businessman_from_mars story matches 6 in game_map:orantes positioned -723 -59 -173 run tp @a[tag=p1,distance=..20] -721 -59 -168 facing -723 -59 -173
 execute if score businessman_from_mars story matches 6 in game_map:orantes positioned -723 -59 -173 run tp @a[tag=p2,distance=..20] -719 -59 -170 facing -723 -59 -173

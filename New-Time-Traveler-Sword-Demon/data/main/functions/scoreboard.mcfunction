@@ -1,5 +1,5 @@
 scoreboard objectives add story dummy "劇情"
-scoreboard objectives add stoey_stage dummy "劇情階段"
+scoreboard objectives add story_stage dummy "劇情階段"
 scoreboard objectives add use_potion dummy "使用藥水道具"
 scoreboard objectives add have_potion dummy "擁有藥水道具數量"
 scoreboard objectives add have_potion_1 dummy "顯示使用後剩餘藥水道具數量"
