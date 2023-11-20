@@ -25,6 +25,8 @@ execute as @a[tag=spectator] run gamemode spectator
 
 scoreboard players remove @a[scores={use_potion_cancel=1..}] use_potion_cancel 1
 
+execute if score #businessman_from_mars stoey_stage matches 6 run clear @a carrot_on_a_stick{Unbreakable:1b,gas_can:2b,CustomModelData:20,HideFlags:7,display:{Name:'[{"text":"","italic":false},{"text":"加油箱(滿)","color":"dark_purple"}]',Lore:['[{"text":"","italic":false},{"text":"任務道具","color":"dark_gray"}]','[{"text":"","italic":false},{"text":"裝滿油的加油箱","color":"gray"}]']}}
+execute if score #businessman_from_mars stoey_stage matches 6 run clear @a carrot_on_a_stick{Unbreakable:1b,gas_can:1b,CustomModelData:20,HideFlags:7,display:{Name:'[{"text":"","italic":false},{"text":"加油箱(空)","color":"dark_purple"}]',Lore:['[{"text":"","italic":false},{"text":"任務道具","color":"dark_gray"}]','[{"text":"","italic":false},{"text":"沒有油的加油箱，對著加油站加油槍右鍵可以加油","color":"gray"}]']}}
 
 #loop存放區
 

@@ -1,12 +1,13 @@
-execute positioned -723 -59 -173 in game_map:orantes as @a[tag=p1,distance=..20] at @s run advancement grant @a only story:businessman_from_mars/dataction
-execute positioned -723 -59 -173 in game_map:orantes as @a[tag=p1,distance=..20] at @s run spawnpoint @a -712 -58 -159
+execute positioned -723 -59 -173 in game_map:orantes as @a[distance=..18] at @s if score #businessman_from_mars stoey_stage matches 0 run function story:orantes/businessman_from_mars/start
+execute positioned -723 -59 -173 in game_map:orantes as @a[distance=..18] at @s run spawnpoint @a -712 -58 -159
 
-execute positioned -723 -59 -173 in game_map:orantes as @a[tag=!businessman_from_mars_require,tag=!businessman_from_mars_3,tag=businessman_from_mars_tag,tag=p1,distance=..8] at @s run advancement grant @a only story:businessman_from_mars/1
-execute positioned -723 -59 -173 in game_map:orantes as @a[tag=!businessman_from_mars_require,tag=!businessman_from_mars_3,tag=businessman_from_mars_tag,tag=p1,distance=8..,tag=businessman_from_mars] at @s run advancement revoke @a only story:businessman_from_mars/1
-execute positioned -723 -59 -173 in game_map:orantes as @a[tag=!businessman_from_mars_require,tag=!businessman_from_mars_3,tag=businessman_from_mars_tag,tag=p1,distance=8..,tag=businessman_from_mars] at @s run tag @a[tag=p1] remove businessman_from_mars
+execute positioned -723 -59 -173 in game_map:orantes unless entity @a[distance=..20] if score #businessman_from_mars stoey_stage matches 1..2 run function story:orantes/businessman_from_mars/cancel
+execute positioned -723 -59 -173 in game_map:orantes unless entity @a[distance=..20] if score #businessman_from_mars stoey_stage matches -1 run function story:orantes/businessman_from_mars/cancel
 
-execute positioned -390 -58 -638 in game_map:orantes as @a[tag=businessman_from_mars_require,tag=p1,distance=..18] at @s run advancement grant @a only story:businessman_from_mars/2
-execute positioned -390 -58 -638 in game_map:orantes as @a[tag=businessman_from_mars_require,tag=p1,distance=18..,tag=businessman_from_mars_2] at @s run advancement revoke @a only story:businessman_from_mars/2
-execute positioned -390 -58 -638 in game_map:orantes as @a[tag=businessman_from_mars_require,tag=p1,distance=18..,tag=businessman_from_mars_2] at @s run tag @a[tag=p1] remove businessman_from_mars_2
 
-execute positioned -723 -59 -173 in game_map:orantes as @a[tag=businessman_from_mars_3,tag=p1,distance=..8] at @s run advancement grant @a only story:businessman_from_mars/3
+execute positioned -723 -59 -173 in game_map:orantes as @a[distance=..8] at @s if score #businessman_from_mars stoey_stage matches 1 run function story:orantes/businessman_from_mars/start_2
+
+execute positioned -723 -59 -173 in game_map:orantes as @a[distance=..8] at @s if score #businessman_from_mars stoey_stage matches 5 run function story:orantes/businessman_from_mars/5
+
+execute positioned -390 -58 -640 in game_map:orantes if entity @a[distance=..18] if score #businessman_from_mars stoey_stage matches 3 run function story:orantes/businessman_from_mars/start_3
+execute positioned -390 -58 -640 in game_map:orantes unless entity @a[distance=..18] if score #businessman_from_mars stoey_stage matches 4 run scoreboard players set #businessman_from_mars stoey_stage 3

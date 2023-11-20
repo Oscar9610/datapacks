@@ -4,6 +4,7 @@ scoreboard players set spaceship_plain story 0
 scoreboard players set worldtree_title story 0
 scoreboard players set spaceship_plain_2 story 0
 scoreboard players set #orantes_main stoey_stage 0
+scoreboard players set #businessman_from_mars stoey_stage 0
 xp set @a 0 levels
 xp set @a 0 points
 
