@@ -9,6 +9,7 @@ execute positioned -370 -58 -432 in game_map:orantes as @a[distance=..30] if sco
 execute positioned -370 -58 -432 in game_map:orantes as @a[distance=..30] if score orantes story matches 18 run tellraw @s {"text":"［陳述］跟我來一趟吧，我帶你到地下村莊去"}
 execute positioned -370 -58 -432 in game_map:orantes as @a[distance=..30] if score orantes story matches 19 run tellraw @s {"text":"［希爾］我們就跟著他走吧"}
 execute positioned -370 -58 -432 in game_map:orantes as @a[distance=..30] if score orantes story matches 20 run tellraw @s {"text":"［希爾］說不定還能獲得更多的線索 !"}
+execute if score orantes story matches 20 run kill @e[tag=statement]
 
 #殺死陳述盔甲座
 #kill statement

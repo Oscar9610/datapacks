@@ -30,6 +30,8 @@ execute if score #businessman_from_mars story_stage matches 6 run clear @a carro
 
 #loop存放區
 
+function task:loop
+
 function rpg_weapons:yanhau_sword_loop
 
 function rpg_weapons:noob_sword_loop

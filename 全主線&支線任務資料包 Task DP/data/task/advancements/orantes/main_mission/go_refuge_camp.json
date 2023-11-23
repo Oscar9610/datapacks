@@ -3,8 +3,8 @@
       "icon": {
         "item": "minecraft:campfire"
       },
-      "title": "前往 地下避難營地",
-      "description": "你拯救了被怪物包圍的陳述，為了躲避怪物，你與陳述前往地下避難營地",
+      "title": "前往 地下村莊",
+      "description": "你拯救了被怪物包圍的陳述，為了躲避怪物，你與陳述前往地下村莊",
       "background": "minecraft:textures/gui/advancements/backgrounds/prismarine.png",
       "frame": "task",
       "show_toast": true,

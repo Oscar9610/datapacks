@@ -1,4 +1,6 @@
 #loop
+function noob_sickle:skill1
+
 function rpg_weapons:yanhau_sword_loop
 
 function rpg_weapons:loop
