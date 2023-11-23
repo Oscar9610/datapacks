@@ -8,10 +8,10 @@ execute if score spaceship_plain story matches 20 run tellraw @a {"text":"【是
 execute if score spaceship_plain story matches 18 run tellraw @a {"text":"［???］對了，簡單自我介紹一下"}
 execute if score spaceship_plain story matches 17 run tellraw @a {"text":"［希爾］我是希爾，來自時空的旅行者"}
 execute if score spaceship_plain story matches 16 run scoreboard players remove spaceship_plain story 1
-execute if score spaceship_plain story matches 15 run tellraw @a {"text":"［希爾］為了守護世界，我們開往飛船\"奧莉婭號\"穿梭在各個宇宙航行"}
-execute if score spaceship_plain story matches 14 run tellraw @a {"text":"［希爾］要跟我們一起去世界以外的地方冒險嗎？"}
+execute if score spaceship_plain story matches 15 run tellraw @a {"text":"［希爾］為了守護世界，我們透過傳送石穿梭在各個宇宙旅行 (｡・ω・｡) "}
+execute if score spaceship_plain story matches 14 run tellraw @a {"text":"［希爾］要不要跟我們一起去世界以外的地方冒險嗎？"}
 execute if score spaceship_plain story matches 13 run tellraw @a {"text":"【好】(點擊繼續對話)","color":"dark_green","clickEvent":{"action":"run_command","value":"/execute if score spaceship_plain story matches 12 run function story:spaceship_plain/1"}}
-execute if score spaceship_plain story matches 12 run tellraw @a {"text":"［希爾］好，那就進來吧，為你介紹我們奧莉婭號最棒的房間吧"}
+execute if score spaceship_plain story matches 12 run tellraw @a {"text":"［希爾］好，那你牽著我的手 (๑•̀ㅂ•́)و✧ 我們前往 太空站「奧莉亞」找註冊時空旅行者身分證吧 ( • ̀ω•́ ) "}
 execute if score spaceship_plain story matches 12 run title @a times 20 40 20
 execute if score spaceship_plain story matches 12 run title @a title {"text":"\uE002"}
 execute if score spaceship_plain story matches 11 run tellraw @a {"text":"(你跟著希爾進入了飛船裡)"}

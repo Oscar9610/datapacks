@@ -7,7 +7,7 @@ execute positioned -222 -55 -546 in game_map:orantes if score statement_go_back_
 execute positioned -222 -55 -546 in game_map:orantes if score statement_go_back_to_old_home story matches 14 run tellraw @a[distance=..20] {"text":"［希爾］我們會保護你的！"}
 execute positioned -222 -55 -546 in game_map:orantes if score statement_go_back_to_old_home story matches 14 run title @a[distance=..20] times 20 20 20
 execute positioned -222 -55 -546 in game_map:orantes if score statement_go_back_to_old_home story matches 14 run title @a[distance=..20] title {"text":"\uE002"}
-execute positioned -222 -55 -546 in game_map:orantes if score statement_go_back_to_old_home story matches 14 run function monster_wave:orantes/2/open
+execute as @a at @s positioned -222 -55 -546 in game_map:orantes if score statement_go_back_to_old_home story matches 14 run function monster_wave:orantes/2/open
 execute if score statement_go_back_to_old_home story matches 15 run kill @e[tag=statement_2]
 execute if score statement_go_back_to_old_home story matches 15 run scoreboard players set #orantes_main story_stage 5
 
