@@ -12,6 +12,7 @@ execute positioned -222 -55 -546 in game_map:orantes if score statement_go_back_
 execute positioned -222 -55 -546 in game_map:orantes if score statement_go_back_to_old_home story matches 22 run tellraw @a[distance=..20] {"text":"［希爾］謝謝陳述"}
 execute positioned -222 -55 -546 in game_map:orantes if score statement_go_back_to_old_home story matches 23 run tellraw @a[distance=..20] {"text":"［希爾］陳述你說這裡有地下村莊可以帶我們去嗎?"}
 execute positioned -222 -55 -546 in game_map:orantes if score statement_go_back_to_old_home story matches 24 run tellraw @a[distance=..20] {"text":"［陳述］好的，我去繼續出發去地下村莊吧"}
+execute positioned -222 -55 -546 in game_map:orantes if score statement_go_back_to_old_home story matches 24 run scoreboard players set #orantes_main story_stage 6
 execute if score statement_go_back_to_old_home story matches 24 run kill @e[tag=statement_2]
 execute positioned -222 -55 -546 in game_map:orantes if score statement_go_back_to_old_home story matches 24 run effect give @a[distance=..20] resistance 3 255 true
 execute positioned -222 -55 -546 in game_map:orantes if score statement_go_back_to_old_home story matches 24 run effect give @a[distance=..20] instant_health 1 27 true
