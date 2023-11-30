@@ -1,1 +1,0 @@
-$attribute @s generic.armor base set $(defense_temp)

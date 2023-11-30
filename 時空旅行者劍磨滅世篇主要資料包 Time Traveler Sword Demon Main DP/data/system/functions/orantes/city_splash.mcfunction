@@ -1,0 +1,1 @@
+execute as @e[tag=city_splash,predicate=system:city_splash] at @s run function system:orantes/city_splash_run

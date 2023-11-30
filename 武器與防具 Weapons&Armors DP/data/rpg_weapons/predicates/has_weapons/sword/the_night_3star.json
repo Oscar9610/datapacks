@@ -1,0 +1,31 @@
+{
+    "condition": "minecraft:all_of",
+    "terms": [
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "the_night_CD": 0
+        }
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "rpg_weapons:rightclick"
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:carrot_on_a_stick"
+              ],
+              "nbt": "{the_night:0b,rarity:3b}"
+            }
+          }
+        }
+      }
+    ]
+  }
+  
