@@ -1,31 +1,31 @@
 execute positioned -221.50 -54.00 -545.50 in game_map:orantes if score statement_go_back_to_old_home story matches 16 run summon minecraft:armor_stand ~ ~ ~ {Brain: {memories: {}}, HurtByTimestamp: 0, Attributes: [{Base: 20.0d, Name: "minecraft:generic.max_health"}, {Base: 0.0d, Name: "minecraft:generic.armor"}, {Base: 0.0d, Name: "minecraft:generic.armor_toughness"}, {Base: 0.699999988079071d, Name: "minecraft:generic.movement_speed"}], Invulnerable: 0b, FallFlying: 0b, ShowArms: 1b, PortalCooldown: 0, AbsorptionAmount: 0.0f, FallDistance: 0.0f, DisabledSlots: 0, DeathTime: 0s, Pose: {RightArm: [303.0f, 332.0f, 0.0f], Head: [-10.0f, 0.0f, 0.0f], LeftArm: [303.0f, 26.0f, 0.0f]}, Invisible: 0b, Tags: ["statement_2"], Motion: [0.0d, -0.0784000015258789d, 0.0d], Small: 1b, Health: 20.0f, Air: 300s, OnGround: 1b, Rotation: [90.0f, 0.0f], HandItems: [{}, {}], Fire: -1s, ArmorItems: [{}, {id: "minecraft:leather_leggings", Count: 1b, tag: {Damage: 0, Trim: {material: "minecraft:emerald", pattern: "minecraft:eye"}, display: {color: 8439583}}}, {id: "minecraft:leather_chestplate", Count: 1b, tag: {Damage: 0, Trim: {material: "minecraft:diamond", pattern: "minecraft:ward"}, display: {color: 1481884}}}, {id: "minecraft:player_head", Count: 1b, tag: {SkullOwner: {Properties: {textures: [{Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODNjNjc4ZDdlMGFkYzAwMjZmZjUxY2NiMGI2OTViYzhhOGQ5N2VhNmM1ZWI0M2FmZTQ0MjRlYWQzNmQ3YWEzMCJ9fX0="}]}, Id: [I; 597445495, 376455587, -1576080428, -1359908725]}, display: {Name: '{"text":"Pilot"}'}}}], NoBasePlate: 1b, HurtTime: 0s}
-execute positioned -221 -58 -516 in game_map:orantes if score statement_go_back_to_old_home story matches 16 run tp @a[tag=p1,distance=..30] -225 -54 -543 facing -222 -54 -546
-execute positioned -221 -58 -516 in game_map:orantes if score statement_go_back_to_old_home story matches 16 run tp @a[tag=p2,distance=..30] -226 -54 -544 facing -222 -54 -546
-execute positioned -221 -58 -516 in game_map:orantes if score statement_go_back_to_old_home story matches 16 run tp @a[tag=p3,distance=..30] -226 -54 -546 facing -222 -54 -546
-execute positioned -221 -58 -516 in game_map:orantes if score statement_go_back_to_old_home story matches 16 run tp @a[tag=p4,distance=..30] -223 -54 -543 facing -222 -54 -546
-execute positioned -222 -55 -546 in game_map:orantes if score statement_go_back_to_old_home story matches 16 run tellraw @a[distance=..20] {"text":"［希爾］ 陳述，你還好嗎"}
-execute positioned -222 -55 -546 in game_map:orantes if score statement_go_back_to_old_home story matches 17 run tellraw @a[distance=..20] {"text":"［陳述］謝謝你們，我沒事。這個飾品真的對我很重要"}
-execute positioned -222 -55 -546 in game_map:orantes if score statement_go_back_to_old_home story matches 18 run tellraw @a[distance=..20] {"text":"［陳述］這是由祖先傳承下來的古老的飾品"}
-execute positioned -222 -55 -546 in game_map:orantes if score statement_go_back_to_old_home story matches 19 run tellraw @a[distance=..20] {"text":"［陳述］可以再關鍵時刻保護攜帶飾品的人"}
-execute positioned -222 -55 -546 in game_map:orantes if score statement_go_back_to_old_home story matches 20 run tellraw @a[distance=..20] {"text":"［陳述］這個飾品送給你們"}
-execute positioned -222 -55 -546 in game_map:orantes if score statement_go_back_to_old_home story matches 21 run tellraw @a[distance=..20] {"text":"［陳述］哥哥姊姊常常在冒險或許之後會用到"}
-execute positioned -222 -55 -546 in game_map:orantes if score statement_go_back_to_old_home story matches 22 run tellraw @a[distance=..20] {"text":"［希爾］謝謝陳述"}
-execute positioned -222 -55 -546 in game_map:orantes if score statement_go_back_to_old_home story matches 23 run tellraw @a[distance=..20] {"text":"［希爾］陳述你說這裡有地下村莊可以帶我們去嗎?"}
-execute positioned -222 -55 -546 in game_map:orantes if score statement_go_back_to_old_home story matches 24 run tellraw @a[distance=..20] {"text":"［陳述］好的，我去繼續出發去地下村莊吧"}
-execute positioned -222 -55 -546 in game_map:orantes if score statement_go_back_to_old_home story matches 24 run scoreboard players set #orantes_main story_stage 6
+execute positioned -189 59 -7 in game_map:orantes if score statement_go_back_to_old_home story matches 16 run tp @a[tag=p1,distance=..30] -189 59 -8 facing -190.50 59.00 -6.50
+execute positioned -189 59 -7 in game_map:orantes if score statement_go_back_to_old_home story matches 16 run tp @a[tag=p2,distance=..30] -188 59 -7 facing -190.50 59.00 -6.50
+execute positioned -189 59 -7 in game_map:orantes if score statement_go_back_to_old_home story matches 16 run tp @a[tag=p3,distance=..30] -190 59 -9 facing -190.50 59.00 -6.50
+execute positioned -189 59 -7 in game_map:orantes if score statement_go_back_to_old_home story matches 16 run tp @a[tag=p4,distance=..30] -187 59 -6 facing -190.50 59.00 -6.50
+execute positioned -189 59 -7 in game_map:orantes if score statement_go_back_to_old_home story matches 16 run tellraw @a[distance=..20] {"text":"［希爾］ 陳述，你還好嗎"}
+execute positioned -189 59 -7 in game_map:orantes if score statement_go_back_to_old_home story matches 17 run tellraw @a[distance=..20] {"text":"［陳述］謝謝你們，我沒事。這個飾品真的對我很重要"}
+execute positioned -189 59 -7 in game_map:orantes if score statement_go_back_to_old_home story matches 18 run tellraw @a[distance=..20] {"text":"［陳述］這是由祖先傳承下來的古老的飾品"}
+execute positioned -189 59 -7 in game_map:orantes if score statement_go_back_to_old_home story matches 19 run tellraw @a[distance=..20] {"text":"［陳述］可以再關鍵時刻保護攜帶飾品的人"}
+execute positioned -189 59 -7 in game_map:orantes if score statement_go_back_to_old_home story matches 20 run tellraw @a[distance=..20] {"text":"［陳述］這個飾品送給你們"}
+execute positioned -189 59 -7 in game_map:orantes if score statement_go_back_to_old_home story matches 21 run tellraw @a[distance=..20] {"text":"［陳述］哥哥姊姊常常在冒險或許之後會用到"}
+execute positioned -189 59 -7 in game_map:orantes if score statement_go_back_to_old_home story matches 22 run tellraw @a[distance=..20] {"text":"［希爾］謝謝陳述"}
+execute positioned -189 59 -7 in game_map:orantes if score statement_go_back_to_old_home story matches 23 run tellraw @a[distance=..20] {"text":"［希爾］陳述你說這裡有奧蘭蒂斯城市可以帶我們去嗎?"}
+execute positioned -189 59 -7 in game_map:orantes if score statement_go_back_to_old_home story matches 24 run tellraw @a[distance=..20] {"text":"［陳述］好的，我去繼續出發去奧蘭蒂斯城市吧"}
+execute positioned -189 59 -7 in game_map:orantes if score statement_go_back_to_old_home story matches 24 run scoreboard players set #orantes_main story_stage 6
 execute if score statement_go_back_to_old_home story matches 24 run kill @e[tag=statement_2]
-execute positioned -222 -55 -546 in game_map:orantes if score statement_go_back_to_old_home story matches 24 run effect give @a[distance=..20] resistance 3 255 true
-execute positioned -222 -55 -546 in game_map:orantes if score statement_go_back_to_old_home story matches 24 run effect give @a[distance=..20] instant_health 1 27 true
-execute positioned -222 -55 -546 in game_map:orantes if score statement_go_back_to_old_home story matches 24 run effect give @a[distance=..20] slowness 3 255 true
-execute positioned -222 -55 -546 in game_map:orantes if score statement_go_back_to_old_home story matches 24 run effect give @a[distance=..20] jump_boost 3 128 true
-execute positioned -222 -55 -546 in game_map:orantes if score statement_go_back_to_old_home story matches 24 run title @a[distance=..20] times 40 50 20
-execute positioned -222 -55 -546 in game_map:orantes if score statement_go_back_to_old_home story matches 24 run title @a[distance=..20] title {"text":"\uE002"}
-execute positioned -222 -55 -546 in game_map:orantes if score statement_go_back_to_old_home story matches 25 run tp @a[distance=..20] 388 -56 -387 180 0
-execute positioned 388 -56 -393 in game_map:orantes if score statement_go_back_to_old_home story matches 26 run tellraw @a[distance=..20] {"text":"［陳述］這棟房子的下方就是村莊"}
-execute positioned 388 -56 -393 in game_map:orantes if score statement_go_back_to_old_home story matches 27 run tellraw @a[distance=..20] {"text":"［陳述］我們下去吧！"}
-execute positioned 388 -56 -393 in game_map:orantes if score statement_go_back_to_old_home story matches 28 run tellraw @a[distance=..20] {"text":"【任務完成】陳述回舊家?","color":"gold"}
-execute positioned 388 -56 -393 in game_map:orantes if score statement_go_back_to_old_home story matches 29 run tellraw @a[distance=..20] {"text":"|| 已開啟主線地下村莊傳送點"}
-execute positioned 388 -56 -393 in game_map:orantes if score statement_go_back_to_old_home story matches 30 run tellraw @a[distance=..20] {"text":"|| 主線任務即可繼續推進！"}
+execute positioned -189 59 -7 in game_map:orantes if score statement_go_back_to_old_home story matches 24 run effect give @a[distance=..20] resistance 3 255 true
+execute positioned -189 59 -7 in game_map:orantes if score statement_go_back_to_old_home story matches 24 run effect give @a[distance=..20] instant_health 1 27 true
+execute positioned -189 59 -7 in game_map:orantes if score statement_go_back_to_old_home story matches 24 run effect give @a[distance=..20] slowness 3 255 true
+execute positioned -189 59 -7 in game_map:orantes if score statement_go_back_to_old_home story matches 24 run effect give @a[distance=..20] jump_boost 3 128 true
+execute positioned -189 59 -7 in game_map:orantes if score statement_go_back_to_old_home story matches 24 run title @a[distance=..20] times 40 50 20
+execute positioned -189 59 -7 in game_map:orantes if score statement_go_back_to_old_home story matches 24 run title @a[distance=..20] title {"text":"\uE002"}
+execute positioned -189 59 -7 in game_map:orantes if score statement_go_back_to_old_home story matches 25 run tp @a[distance=..20] 6.5 61.0 107.5 0 0
+execute positioned 6.5 61.0 107.5 in game_map:orantes if score statement_go_back_to_old_home story matches 26 run tellraw @a[distance=..20] {"text":"［陳述］這裡就是奧蘭蒂斯城市了"}
+execute positioned 6.5 61.0 107.5 in game_map:orantes if score statement_go_back_to_old_home story matches 27 run tellraw @a[distance=..20] {"text":"［陳述］我們過去吧！"}
+execute positioned 6.5 61.0 107.5 in game_map:orantes if score statement_go_back_to_old_home story matches 28 run tellraw @a[distance=..20] {"text":"【任務完成】在洞穴偶遇陳述？！","color":"gold"}
+execute positioned 6.5 61.0 107.5 in game_map:orantes if score statement_go_back_to_old_home story matches 29 run tellraw @a[distance=..20] {"text":"|| 已開啟主線奧蘭蒂斯城市傳送點"}
+execute positioned 6.5 61.0 107.5 in game_map:orantes if score statement_go_back_to_old_home story matches 30 run tellraw @a[distance=..20] {"text":"|| 主線任務即可繼續推進！"}
 
 execute if score statement_go_back_to_old_home story matches 16..30 run scoreboard players add statement_go_back_to_old_home story 1
 execute if score statement_go_back_to_old_home story matches 16..30 run schedule function story:orantes/statement_go_back_to_old_home/4 4s

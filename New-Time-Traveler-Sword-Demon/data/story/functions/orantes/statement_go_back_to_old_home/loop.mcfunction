@@ -1,2 +1,5 @@
-execute positioned -222 -55 -546 in game_map:orantes as @a[distance=..10] if score #orantes_main story_stage matches 3 run function story:orantes/statement_go_back_to_old_home/start
-execute positioned -222 -55 -546 in game_map:orantes as @a[distance=..10] if score #orantes_main story_stage matches 3 run scoreboard players set #orantes_main story_stage 4
+execute positioned -189 59 -7 in game_map:orantes as @a[distance=..10] if score #orantes_main story_stage matches 3 run function story:orantes/statement_go_back_to_old_home/start
+execute positioned -189 59 -7 in game_map:orantes as @a[distance=..10] if score #orantes_main story_stage matches 3 run scoreboard players set #orantes_main story_stage 4
+execute positioned -189 59 -7 in game_map:orantes unless entity @a[distance=..15] if score #orantes_main story_stage matches 4 run schedule clear story:orantes/statement_go_back_to_old_home/1
+execute positioned -189 59 -7 in game_map:orantes as @a unless entity @a[distance=..15] if score #orantes_main story_stage matches 4 run tellraw @a[distance=..20] [{"text":"(已取消","color":"gold"},{"text": " 在洞穴偶遇陳述？！ ","color":"green","bold":true},{"text":"再次靠近NPC即可繼續任務)","color":"gold"}]
+execute positioned -189 59 -7 in game_map:orantes unless entity @a[distance=..15] if score #orantes_main story_stage matches 4 run scoreboard players set #orantes_main story_stage 3

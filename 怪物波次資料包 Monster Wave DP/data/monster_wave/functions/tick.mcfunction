@@ -11,8 +11,8 @@ execute as @a if score orantes_3 kill = orantes_3 target_wave run tag @a remove 
 execute as @a if score orantes_3 kill = orantes_3 target_wave run function story:orantes/7
 execute as @a if score orantes_3 kill = orantes_3 target_wave run function monster_wave:orantes/3/reset_2
 
-execute positioned -221 -58 -516 in game_map:orantes as @a if entity @a[distance=..30] if score #orantes_main story_stage matches 5 run function monster_wave:orantes/2/open
-execute positioned -221 -58 -516 in game_map:orantes as @a if entity @a[distance=..30] if score #orantes_main story_stage matches 5 run scoreboard players set #orantes_main story_stage 6
+execute positioned -178 61 -11 in game_map:orantes as @a if entity @a[distance=..30] if score #orantes_main story_stage matches 5 run function monster_wave:orantes/2/open
+execute positioned -178 61 -11 in game_map:orantes as @a if entity @a[distance=..30] if score #orantes_main story_stage matches 5 run scoreboard players set #orantes_main story_stage 6
 
-execute positioned -6 -62 -3 in game_map:orantes_dungeon as @a if entity @a[distance=..30] if score #orantes_main story_stage matches 8 run function monster_wave:orantes/3/open
-execute positioned -6 -62 -3 in game_map:orantes_dungeon as @a if entity @a[distance=..30] if score #orantes_main story_stage matches 8 run scoreboard players set #orantes_main story_stage 9
+execute positioned -8 61 105 in game_map:orantes as @a if entity @a[distance=..30] if score #orantes_main story_stage matches 8 run function monster_wave:orantes/3/open
+execute positioned -8 61 105 in game_map:orantes as @a if entity @a[distance=..30] if score #orantes_main story_stage matches 8 run scoreboard players set #orantes_main story_stage 9
