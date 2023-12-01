@@ -19,8 +19,6 @@ scoreboard objectives add yanhuo_sword_passive_max_cd dummy "焱火劍被動CD�
 
 scoreboard objectives add wind_sword_cd dummy "風力劍CD"
 scoreboard objectives add wind_sword_max_cd dummy "風力劍CD上限"
-scoreboard objectives add wind_defense_lowered dummy "風力劍降防效果持續時間"
-scoreboard objectives add wind_defense_lowered_max dummy "風力劍降防效果最大持續時間"
 
 scoreboard objectives add the_night_CD dummy "夜幕CD"
 scoreboard objectives add the_night_max_CD dummy "夜幕CD上限"

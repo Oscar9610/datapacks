@@ -32,6 +32,8 @@ execute if score #businessman_from_mars story_stage matches 6 run clear @a carro
 
 function task:loop
 
+function rpg_armors:loop
+
 function rpg_weapons:yanhau_sword_loop
 
 function skill:skill1

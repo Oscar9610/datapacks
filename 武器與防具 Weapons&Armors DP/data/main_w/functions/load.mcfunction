@@ -12,5 +12,3 @@ function rpg_weapons:cd/all_weapons
 #傷害公式scoreboard
 function damage_formula:scoreboard
 
-say complete
-
