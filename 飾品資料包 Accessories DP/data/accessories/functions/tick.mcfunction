@@ -1,0 +1,2 @@
+function accessories:detect
+function accessories:timer

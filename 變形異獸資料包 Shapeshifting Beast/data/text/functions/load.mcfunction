@@ -1,5 +1,3 @@
-tellraw @p ["",{"text":"變形異獸","color":"white"},{"text":"已載入完成","color":"green"}]
-
 scoreboard objectives add rightclick minecraft.used:minecraft.carrot_on_a_stick "右鍵偵測"
 scoreboard objectives add cd dummy "cd"
 scoreboard objectives add type dummy "型態"

@@ -1,0 +1,84 @@
+{
+    "condition": "minecraft:any_of",
+    "terms": [
+      {
+        "condition": "minecraft:all_of",
+        "terms": [
+          {
+            "condition": "minecraft:reference",
+            "name": "accessories:time_accessories/head"
+          },
+          {
+            "condition": "minecraft:reference",
+            "name": "accessories:time_accessories/chestplate"
+          }
+        ]
+      },
+      {
+        "condition": "minecraft:all_of",
+        "terms": [
+          {
+            "condition": "minecraft:reference",
+            "name": "accessories:time_accessories/head"
+          },
+          {
+            "condition": "minecraft:reference",
+            "name": "accessories:time_accessories/leggings"
+          }
+        ]
+      },
+      {
+        "condition": "minecraft:all_of",
+        "terms": [
+          {
+            "condition": "minecraft:reference",
+            "name": "accessories:time_accessories/head"
+          },
+          {
+            "condition": "minecraft:reference",
+            "name": "accessories:time_accessories/boots"
+          }
+        ]
+      },
+      {
+        "condition": "minecraft:all_of",
+        "terms": [
+          {
+            "condition": "minecraft:reference",
+            "name": "accessories:time_accessories/chestplate"
+          },
+          {
+            "condition": "minecraft:reference",
+            "name": "accessories:time_accessories/leggings"
+          }
+        ]
+      },
+      {
+        "condition": "minecraft:all_of",
+        "terms": [
+          {
+            "condition": "minecraft:reference",
+            "name": "accessories:time_accessories/chestplate"
+          },
+          {
+            "condition": "minecraft:reference",
+            "name": "accessories:time_accessories/boots"
+          }
+        ]
+      },
+      {
+        "condition": "minecraft:all_of",
+        "terms": [
+          {
+            "condition": "minecraft:reference",
+            "name": "accessories:time_accessories/leggings"
+          },
+          {
+            "condition": "minecraft:reference",
+            "name": "accessories:time_accessories/boots"
+          }
+        ]
+      }
+    ]
+  }
+  
