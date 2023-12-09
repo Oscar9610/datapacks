@@ -1,1 +1,2 @@
 function monster_skills:scoreboard
+schedule function monster_skills:timer 1s

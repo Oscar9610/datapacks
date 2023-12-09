@@ -11,7 +11,7 @@
     "announce_to_chat": false,
     "hidden": false
   },
-  "parent": "task:orantes/main_mission/go_refuge_camp",
+  "parent": "task:orantes/main_mission/rescue_statement",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:impossible"

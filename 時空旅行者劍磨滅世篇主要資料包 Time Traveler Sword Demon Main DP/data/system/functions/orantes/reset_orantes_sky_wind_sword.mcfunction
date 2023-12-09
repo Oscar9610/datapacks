@@ -1,0 +1,3 @@
+kill @e[tag=orantes_sky_wind_sword]
+execute in game_map:orantes run summon item_display -64 320 12 {Tags:["orantes_sky_wind_sword"],item:{Count:1b,id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:21,Damage:0}},transformation:{left_rotation:[0.0f,0.0f,-1.0002f,-2.0E-4f],right_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[2.0f,2.0f,2.0f],translation:[0.0f,0.0f,0.0f]}}
+execute in game_map:orantes run summon minecraft:interaction -64 319 12 {Tags:["orantes_sky_wind_sword"],width:1,height:2}

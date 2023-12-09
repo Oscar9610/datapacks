@@ -1,0 +1,20 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:chicken",
+        "nbt": "{display:{Name:'{\"text\":\"你幹嘛阿~~哎呦~\",\"bold\":\"true\"}'}}"
+      },
+      "title": "你幹嘛阿~~哎呦~",
+      "description": "這世界又多一個小黑子了！",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

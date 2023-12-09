@@ -1,0 +1,1 @@
+execute as @a if predicate rpg_armors:baskball_armors/4 run advancement grant @a only advancements:chicken

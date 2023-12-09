@@ -1,0 +1,21 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {
+        "head": {
+          "nbt": "{basketball:1b}"
+        },
+        "chest": {
+          "nbt": "{basketball:1b}"
+        },
+        "legs": {
+          "nbt": "{basketball:1b}"
+        },
+        "feet": {
+          "nbt": "{basketball:1b}"
+        }
+      }
+    }
+  }
+  

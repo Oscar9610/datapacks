@@ -20,7 +20,7 @@ execute positioned -189 59 -7 in game_map:orantes if score statement_go_back_to_
 execute positioned -189 59 -7 in game_map:orantes if score statement_go_back_to_old_home story matches 24 run effect give @a[distance=..20] jump_boost 3 128 true
 execute positioned -189 59 -7 in game_map:orantes if score statement_go_back_to_old_home story matches 24 run title @a[distance=..20] times 40 50 20
 execute positioned -189 59 -7 in game_map:orantes if score statement_go_back_to_old_home story matches 24 run title @a[distance=..20] title {"text":"\uE002"}
-execute positioned -189 59 -7 in game_map:orantes if score statement_go_back_to_old_home story matches 25 run tag @a[distance..20] add statement_go_back_to_old_home_end
+execute positioned -189 59 -7 in game_map:orantes if score statement_go_back_to_old_home story matches 25 run tag @a[distance=..20] add statement_go_back_to_old_home_end
 execute positioned -189 59 -7 in game_map:orantes if score statement_go_back_to_old_home story matches 25 run tp @a[distance=..20] 6.5 61.0 107.5 0 0
 execute if score statement_go_back_to_old_home story matches 26 run tellraw @a[tag=statement_go_back_to_old_home_end] {"text":"［陳述］這裡就是奧蘭蒂斯城市了"}
 execute if score statement_go_back_to_old_home story matches 27 run tellraw @a[tag=statement_go_back_to_old_home_end] {"text":"［陳述］我們過去吧！"}

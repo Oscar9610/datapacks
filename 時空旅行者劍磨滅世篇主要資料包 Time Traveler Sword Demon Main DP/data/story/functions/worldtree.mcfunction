@@ -4,7 +4,8 @@
 execute if score worldtree story matches 21 run advancement grant @a only task:spaceship/main_mission/1
 execute if score worldtree story matches 21 run tellraw @a {"text":"【SKIP】(點擊跳過劇情對話) ","color":"light_purple","clickEvent":{"action":"run_command","value":"/execute if score worldtree story matches 14..21 run scoreboard players set worldtree story 13"}}
 execute if score worldtree story matches 20 run title @a times 20 60 20
-execute if score worldtree story matches 20 run title @a title {"text":"時空旅行者: 劍魔滅世篇"}
+execute if score worldtree story matches 20 run title @a title ""
+execute if score worldtree story matches 20 run title @a subtitle ["",{"text":"| ","bold":true,"obfuscated":true,"color":"light_purple"},{"text":"第","bold":true,"italic":true,"color":"#FFD780"},{"text":"一","bold":true,"italic":true,"color":"#FFCB5C"},{"text":"維","bold":true,"italic":true,"color":"#FFCB5C"},{"text":"度","bold":true,"italic":true,"color":"#FFD780"},{"text":" 𝓕","bold":true,"color":"red"},{"text":"𝓲","bold":true,"color":"#FC7654"},{"text":"𝓻","bold":true,"color":"#FCB654"},{"text":"𝓼","color":"#FCD854"},{"text":"𝓽","bold":true,"color":"#E9FC54"},{"text":" 𝓓","bold":true,"color":"#B9FC54"},{"text":"𝓲","bold":true,"color":"#87FC54"},{"text":"𝓶","bold":true,"color":"#54FC9D"},{"text":"𝓮","bold":true,"color":"#54FCD2"},{"text":"𝓷","bold":true,"color":"#54F1FC"},{"text":"𝓼","color":"#54C4FC"},{"text":"𝓲","bold":true,"color":"#549DFC"},{"text":"𝓸","bold":true,"color":"#5470FC"},{"text":"𝓷","bold":true,"color":"#8F54FC"},{"text":" |","bold":true,"obfuscated":true,"color":"light_purple"}]
 execute if score worldtree story matches 20 run tellraw @a {"text":"[旁白] 世界即將毀滅"}
 execute if score worldtree story matches 20 run effect give @a minecraft:invisibility 100 255 true
 execute if score worldtree story matches 19 run tellraw @a {"text":"[旁白] 深淵的力量正在侵蝕著世界的每個角落"}
@@ -23,10 +24,10 @@ execute if score worldtree story matches 12 run tellraw @a {"text":"[旁白] 守
 execute if score worldtree story matches 11 run tellraw @a {"text":"[瑪莎] 世界即將迎來毀滅"}
 execute if score worldtree story matches 10 run tellraw @a {"text":"[瑪莎] 孩子，你是拯救世界的唯一希望"}
 execute if score worldtree story matches 9 run tellraw @a {"text":"[瑪莎] 深淵力量正在侵蝕世界"}
-execute if score worldtree story matches 8 run tellraw @a {"text":"[瑪莎] 為了拯救世界，我將會把你送往其他的維度"}
+execute if score worldtree story matches 8 run tellraw @a {"text":"[瑪莎] 為了拯救世界，我將會把你送往其他的星球"}
 execute if score worldtree story matches 7 run tellraw @a {"text":"[瑪莎] 深淵會侵蝕他能侵蝕的任何東西"}
 execute if score worldtree story matches 6 run tellraw @a {"text":"[阿斯卡] 包括我們的力量"}
-execute if score worldtree story matches 5 run tellraw @a {"text":"[阿斯卡] 他能穿越各個維度蔓延到不同宇宙維度裡"}
+execute if score worldtree story matches 5 run tellraw @a {"text":"[阿斯卡] 他能穿越各個星球並蔓延到不同宇宙星球裡"}
 execute if score worldtree story matches 4 run tellraw @a {"text":"[阿斯卡] 必須在他毀滅世界前，盡速消滅"}
 execute as @a if score worldtree story matches 3 run tellraw @s [{"text":"[阿斯卡] ","extra":[{"selector":"@s"}]},{"text":"，我知到你能做到"}]
 execute if score worldtree story matches 2 run tellraw @a {"text":"[阿斯卡] 堅持下去，相信路上遇到的夥伴，互相幫助"}

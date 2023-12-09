@@ -1,0 +1,3 @@
+execute store result score shadow_1 automations.boss.count run execute positioned 0 63 0 in game_map:shadow_arena if entity @e[tag=shadow_1,distance=..60]
+execute positioned 0 63 0 in game_map:shadow_arena if entity @a[distance=..60] if score shadow_1 automations.boss.count matches 2.. run function automations:orantes/shadow/set_delay/leave
+execute positioned 0 63 0 in game_map:shadow_arena if entity @a[distance=..60] unless entity @e[tag=shadow_1,distance=..60] if score #automations.orantes.shoadow automations.boss_time matches 0 run function monster_skills:monster/boss/shadow/summon

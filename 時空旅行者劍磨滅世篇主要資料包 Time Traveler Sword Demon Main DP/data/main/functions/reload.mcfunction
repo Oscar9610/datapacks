@@ -3,8 +3,10 @@ scoreboard players set worldtree story 0
 scoreboard players set spaceship_plain story 0
 scoreboard players set worldtree_title story 0
 scoreboard players set spaceship_plain_2 story 0
+scoreboard players set statement_is_missing story 0
 scoreboard players set #orantes_main story_stage 0
 scoreboard players set #businessman_from_mars story_stage 0
+scoreboard players set #statement_is_missing story_stage 0
 xp set @a 0 levels
 xp set @a 0 points
 
@@ -18,6 +20,9 @@ advancement revoke @a only story:statement_go_back_to_old_home/detection
 advancement revoke @a only story:businessman_from_mars/2
 advancement revoke @a only story:businessman_from_mars/3
 advancement revoke @a only story:orantes_start
+advancement revoke @a only task:orantes/branch_line/statement_is_missing
+
+advancement revoke @a only advancements:chicken
 
 tag @a remove businessman_from_mars
 tag @a remove businessman_from_mars_require
