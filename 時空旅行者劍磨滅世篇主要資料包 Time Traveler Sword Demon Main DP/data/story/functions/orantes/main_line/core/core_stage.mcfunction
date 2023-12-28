@@ -1,0 +1,3 @@
+execute if score #global core_stage matches 1 if score kill_potion core_stage matches 1 if score kill_shadow core_stage matches 1 run function story:orantes/main_line/core/3
+execute if score #global core_stage matches 1 if score kill_potion core_stage matches 1 if score kill_shadow core_stage matches 1 run function story:orantes/main_line/core/reset_core_stage
+execute if score #global core_stage matches 1 if score kill_potion core_stage matches 1 if score kill_shadow core_stage matches 1 run scoreboard players set #global core_stage 0

@@ -1,0 +1,3 @@
+execute as @e[type=area_effect_cloud,tag=forging_table] at @s positioned ~ ~1 ~ if entity @e[type=item,nbt={Item:{tag:{grip:1b},Count:1b}},distance=..1.5] if entity @e[type=item,nbt={Item:{tag:{blade:1b},Count:4b}},distance=..1.5] if entity @e[type=item,nbt={Item:{tag:{knife_tan:1b},Count:2b}},distance=..1.5] run function system:tool/forging_table/synthesis/the_night_3star
+
+schedule function system:tool/forging_table/loop 1t

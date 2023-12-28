@@ -5,4 +5,3 @@ execute if score spaceship_plain_2 story matches 3 run tellraw @a {"text":"［�
 execute if score spaceship_plain_2 story matches 4 run tellraw @a {"text":"【目標】去地圖區找萊娜","color":"gold"}
 execute if score spaceship_plain_2 story matches 4 run advancement grant @a only task:spaceship/main_mission/4
 execute if score spaceship_plain_2 story matches 0..4 run scoreboard players add spaceship_plain_2 story 1
-execute if score spaceship_plain_2 story matches 0..4 run schedule function story:spaceship_plain/3 3s

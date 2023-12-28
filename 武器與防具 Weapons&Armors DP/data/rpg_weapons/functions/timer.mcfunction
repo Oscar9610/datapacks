@@ -23,6 +23,12 @@ execute as @a[scores={the_night_CD=1}] at @s run playsound minecraft:entity.play
 execute as @a[scores={double_sword_cd=1}] run tellraw @s [{"text":"[","color":"green","bold":true},{"text":"☆☆☆☆鋒利雙股劍 {物理}","color":"white","bold":true},{"text":"] ","color":"green","bold":true},{"text":"冷卻完畢！","color":"green","bold":true}]
 execute as @a[scores={double_sword_cd=1}] at @s run playsound minecraft:entity.player.levelup voice @s ~ ~ ~ 0.5 1.5
 
+execute as @a[scores={double_sword_fire_cd=1}] run tellraw @s [{"text":"[","color":"green","bold":true},{"text":"☆☆☆☆熾熱雙股劍 {火}","color":"red","bold":true},{"text":"] ","color":"green","bold":true},{"text":"冷卻完畢！","color":"green","bold":true}]
+execute as @a[scores={double_sword_fire_cd=1}] at @s run playsound minecraft:entity.player.levelup voice @s ~ ~ ~ 0.5 1.5
+
+execute as @a[scores={double_sword_water_cd=1}] run tellraw @s [{"text":"[","color":"green","bold":true},{"text":"☆☆☆☆清涼雙股劍 {水}","color":"blue","bold":true},{"text":"] ","color":"green","bold":true},{"text":"冷卻完畢！","color":"green","bold":true}]
+execute as @a[scores={double_sword_water_cd=1}] at @s run playsound minecraft:entity.player.levelup voice @s ~ ~ ~ 0.5 1.5
+
 execute as @a[scores={noob_sickle_cd=1}] run tellraw @s [{"text":"[","color":"green","bold":true},{"text":"☆新手鐮刀{物理}","color":"white","bold":true},{"text":"] ","color":"green","bold":true},{"text":"冷卻完畢！","color":"green","bold":true}]
 execute as @a[scores={noob_sickle_cd=1}] at @s run playsound minecraft:entity.player.levelup voice @s ~ ~ ~ 0.5 1.5
 
@@ -34,6 +40,8 @@ scoreboard players remove @a[scores={noob_axe_cd=1..}] noob_axe_cd 1
 scoreboard players remove @a[scores={wind_sword_cd=1..}] wind_sword_cd 1
 scoreboard players remove @a[scores={double_sword_cd=1..}] double_sword_cd 1
 scoreboard players remove @a[scores={double_sword_fire_cd=1..}] double_sword_fire_cd 1
+scoreboard players remove @a[scores={double_sword_water_cd=1..}] double_sword_water_cd 1
+scoreboard players remove @a[scores={double_sword_water_effect_cd=1..}] double_sword_water_effect_cd 1
 scoreboard players remove @a[scores={water_sword_cd=1..}] water_sword_cd 1
 scoreboard players remove @a[scores={noob_sickle_cd=1..}] noob_sickle_cd 1
 

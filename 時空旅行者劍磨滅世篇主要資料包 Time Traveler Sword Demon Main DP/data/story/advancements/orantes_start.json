@@ -3,15 +3,13 @@
     "requirement": {
       "trigger": "minecraft:changed_dimension",
       "conditions": {
-        "player": {
-          "nbt": "{Tags:[\"p1\"]}"
-        },
+        "player": {},
         "from": "game_map:spaceship_interior",
         "to": "game_map:orantes"
       }
     }
   },
   "rewards": {
-    "function": "story:orantes/start"
+    "function": "story:orantes/main_line/start"
   }
 }

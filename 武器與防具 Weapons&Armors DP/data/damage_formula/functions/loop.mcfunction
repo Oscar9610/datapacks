@@ -11,6 +11,8 @@ execute as @e at @s run function player_attributes:double_sword/skill1
 execute as @e at @s run function player_attributes:double_sword/effect
 execute as @e at @s run function player_attributes:double_sword_fire/skill
 execute as @e at @s run function player_attributes:double_sword_fire/effect
+execute as @e at @s run function player_attributes:double_sword_water/skill
+execute as @e at @s run function player_attributes:double_sword_water/effect
 execute as @e at @s run function player_attributes:water_sword_demon/skill/water_sword_demon
 execute as @e at @s run function player_attributes:noob_schtick/skill/noob_schtick
 

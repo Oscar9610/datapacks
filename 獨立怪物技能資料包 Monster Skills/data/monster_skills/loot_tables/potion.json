@@ -1,0 +1,50 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 2,
+        "max": 3
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 80,
+          "quality": 40,
+          "name": "minecraft:netherite_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,knife_tan:1b,HideFlags:32,display:{Name:'[{\"text\":\"\",\"italic\":false},{\"text\":\"［素材］\",\"color\":\"dark_aqua\",\"bold\":true,\"italic\":true},{\"text\":\"腐蝕眼珠\",\"color\":\"green\",\"bold\":true,\"italic\":true}]',Lore:['[{\"text\":\"\",\"italic\":false},{\"text\":\" 素材 / 刀鐔\",\"color\":\"gray\",\"bold\":true}]','[{\"text\":\"\",\"italic\":false},{\"text\":\"====================\",\"color\":\"white\"}]','[{\"text\":\"\",\"italic\":false},{\"text\":\"帶有劇毒跟核輻射的眼珠，殺傷力足瞬間殺死一頭大象！\",\"color\":\"dark_aqua\"}]','[{\"text\":\"\",\"italic\":false},{\"text\":\"====================\",\"color\":\"white\"}]','[{\"text\":\"\",\"italic\":false},{\"text\":\"可用於鍛造以下武器:\",\"color\":\"gray\",\"bold\":true}]','[{\"text\":\"\",\"italic\":false},{\"text\":\" - \",\"color\":\"white\",\"bold\":true,\"italic\":true},{\"text\":\"夜幕(風)\",\"color\":\"dark_green\",\"italic\":true}]','[{\"text\":\"\",\"italic\":false}]']}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 100,
+          "quality": 0,
+          "name": "minecraft:emerald",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 10,
+                "max": 20
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Unbreakable:1b,money:1b,HideFlags:7,display:{Name:'[{\"text\":\"\",\"italic\":false},{\"text\":\"星輝幣 1 元\",\"color\":\"dark_purple\"}]',Lore:['[{\"text\":\"\",\"italic\":false},{\"text\":\"通用金錢\",\"color\":\"dark_gray\"}]','[{\"text\":\"\",\"italic\":false},{\"text\":\"全宇宙通用的貨幣\",\"color\":\"gray\"}]','[{\"text\":\"\",\"italic\":false},{\"text\":\"任誰都能理解它的價值與份量\",\"color\":\"gray\"}]']}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -7,6 +7,7 @@ execute as @s at @s run playsound minecraft:item.trident.throw voice @a ~ ~1 ~ 9
 execute as @s at @s run playsound minecraft:item.shield.break voice @a ~ ~1 ~ 9999 0.5 1
 execute as @s at @s run playsound minecraft:item.trident.riptide_1 voice @a ~ ~1 ~ 9999 1 1
 execute as @s at @s run playsound minecraft:item.trident.riptide_1 voice @a ~ ~1 ~ 9999 0.5 1
+execute as @s at @s run scoreboard players set @s noob_sword_screen 5
 execute as @s at @s positioned ~ ~-2.5 ~ run particle minecraft:sweep_attack ^ ^ ^5 5 5 5 2 160
 
 execute as @s[scores={temp=1},tag=p1] positioned ^ ^ ^3 as @e[type=#entity:monsters,distance=..5] run function damage_formula:noob_sword/skill/p1_noob_sword_1 with storage minecraft:p1_skill_damage

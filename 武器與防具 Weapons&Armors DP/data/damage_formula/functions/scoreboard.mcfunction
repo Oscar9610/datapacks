@@ -22,5 +22,8 @@ scoreboard players set double_sword_effect percentage 100
 scoreboard players set double_sword_fire percentage 240
 scoreboard players set double_sword_fire_effect percentage 50
 
+scoreboard players set double_sword_water percentage 240
+scoreboard players set double_sword_water_effect percentage 35
+
 #百分比倍率微調
 scoreboard players set #percentage_modification percentage 100

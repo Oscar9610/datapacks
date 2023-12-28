@@ -13,3 +13,6 @@ execute as @e[scores={monster.skill.casting=0},tag=shadow_1] at @s run function 
 execute as @e[tag=shadow_1] at @s run particle minecraft:reverse_portal ~ ~1 ~ 1 1 1 0.1 1
 
 kill @e[tag=shadow.zombie,tag=Duration,scores={duration=600..}]
+
+execute positioned 0 62 0 in game_map:shadow_arena as @e[type=!player,distance=60..,tag=shadow_1.arena] at @s run tp @s ~ ~ ~ facing 0 62 0
+execute positioned 0 63 0 in game_map:shadow_arena as @e[type=!player,distance=60..,tag=shadow_1.arena] at @s anchored feet run tp @s ^ ^0.2 ^1

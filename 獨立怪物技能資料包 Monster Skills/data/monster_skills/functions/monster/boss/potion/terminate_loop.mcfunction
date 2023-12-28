@@ -1,0 +1,2 @@
+execute unless entity @e[tag=potion_boss] run schedule clear monster_skills:monster/boss/potion/loop
+execute unless entity @e[tag=potion_boss] run schedule clear monster_skills:monster/boss/potion/skill1/jump_detect

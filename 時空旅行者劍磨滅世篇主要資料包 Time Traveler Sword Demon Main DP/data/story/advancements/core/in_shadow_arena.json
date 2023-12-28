@@ -1,0 +1,11 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:changed_dimension",
+        "conditions": {
+          "to": "game_map:shadow_arena"
+        }
+      }
+    }
+  }
+  

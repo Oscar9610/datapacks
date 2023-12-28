@@ -1,0 +1,2 @@
+execute positioned 120 64 -93 in game_map:orantes if score #lost_guardian story_stage matches 0 run function story:orantes/branch_line/lost_guardian/start
+schedule function story:orantes/branch_line/loop 1t

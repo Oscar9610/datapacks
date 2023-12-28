@@ -1,0 +1,2 @@
+scoreboard players set statement_go_back_to_old_home story 1
+schedule function story:orantes/main_line/statement_go_back_to_old_home/1 2t

@@ -10,6 +10,3 @@ execute if score spaceship_plain_2 story matches 11 run scoreboard players add s
 execute if score spaceship_plain_2 story matches 12 run scoreboard players add spaceship_plain_2 story 1
 
 execute if score spaceship_plain_2 story matches 5..12 run scoreboard players add spaceship_plain_2 story 1
-execute if score spaceship_plain_2 story matches 8 run schedule function story:spaceship_plain/4 4
-execute if score spaceship_plain_2 story matches 5..7 run schedule function story:spaceship_plain/4 3s
-execute if score spaceship_plain_2 story matches 9..12 run schedule function story:spaceship_plain/4 3s

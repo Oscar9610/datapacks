@@ -1,3 +1,4 @@
+#暫時廢棄
 execute if score spaceship_plain_2 story matches 30 run tellraw @a {"text":"［希爾］旅行者！這裡就是訓練場啦，首先我們先來了解技能的使用吧"}
 execute if score spaceship_plain_2 story matches 31 run tellraw @a {"text":"［希爾］除了普通攻擊之外，每種武器都有自己的技能"}
 execute if score spaceship_plain_2 story matches 32 run tellraw @a {"text":"［希爾］如果能在戰鬥中好好運用這些技能，便能使戰鬥事半功倍！"}

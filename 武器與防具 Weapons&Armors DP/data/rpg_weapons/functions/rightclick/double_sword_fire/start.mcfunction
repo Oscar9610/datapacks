@@ -1,5 +1,5 @@
-execute as @a[nbt={Inventory:[{Slot:-106b,tag:{double_sword:2b}}],SelectedItem:{tag:{double_sword:-1b}}}] run scoreboard players set @s double_sword_fire_switch 1
-execute as @a[nbt={Inventory:[{Slot:-106b,tag:{double_sword:-2b}}],SelectedItem:{tag:{double_sword:1b}}}] run scoreboard players set @s double_sword_fire_switch -1
+execute as @a[nbt={Inventory:[{Slot:-106b,tag:{double_sword:2b}}],SelectedItem:{tag:{double_sword:-2b}}}] run scoreboard players set @s double_sword_fire_switch 1
+execute as @a[nbt={Inventory:[{Slot:-106b,tag:{double_sword:-2b}}],SelectedItem:{tag:{double_sword:2b}}}] run scoreboard players set @s double_sword_fire_switch -1
 
 execute at @s[tag=p1] anchored eyes positioned ^ ^ ^4 as @e[distance=..5,type=!player] run function damage_formula:double_sword_fire/skill/p1_double_sword_fire with storage p1_skill_damage
 execute at @s[tag=p2] anchored eyes positioned ^ ^ ^4 as @e[distance=..5,type=!player] run function damage_formula:double_sword_fire/skill/p2_double_sword_fire with storage p2_skill_damage

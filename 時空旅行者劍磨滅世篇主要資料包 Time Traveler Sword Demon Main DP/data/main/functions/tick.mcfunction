@@ -1,6 +1,5 @@
 #飽食
 effect give @a minecraft:saturation infinite 255 true
-function main_w:tick
 
 #大廳Loop音樂
 function music:mandragora2
@@ -28,13 +27,16 @@ scoreboard players remove @a[scores={use_potion_cancel=1..}] use_potion_cancel 1
 execute if score #businessman_from_mars story_stage matches 6 run clear @a carrot_on_a_stick{Unbreakable:1b,gas_can:2b,CustomModelData:20,HideFlags:7,display:{Name:'[{"text":"","italic":false},{"text":"加油箱(滿)","color":"dark_purple"}]',Lore:['[{"text":"","italic":false},{"text":"任務道具","color":"dark_gray"}]','[{"text":"","italic":false},{"text":"裝滿油的加油箱","color":"gray"}]']}}
 execute if score #businessman_from_mars story_stage matches 6 run clear @a carrot_on_a_stick{Unbreakable:1b,gas_can:1b,CustomModelData:20,HideFlags:7,display:{Name:'[{"text":"","italic":false},{"text":"加油箱(空)","color":"dark_purple"}]',Lore:['[{"text":"","italic":false},{"text":"任務道具","color":"dark_gray"}]','[{"text":"","italic":false},{"text":"沒有油的加油箱，對著加油站加油槍右鍵可以加油","color":"gray"}]']}}
 
+execute as @a[scores={noob_sword_screen=1..}] run scoreboard players remove @s noob_sword_screen 1
+
+execute as @a[scores={noob_sword_screen=2..5}] at @s run tp @s ~ ~ ~ ~-20.4 ~
+execute as @a[scores={noob_sword_screen=1..2}] at @s run tp @s ~ ~ ~ ~30.6 ~
+
 #loop存放區
 
 function advancements:chicken/loop
 
 function automations:orantes/shadow/set_delay/loop
-
-function task:loop
 
 function rpg_armors:loop
 
@@ -52,8 +54,6 @@ function damage_formula:loop
 
 function music:loop
 
-function story:orantes/loop
-
 function story:orantes/businessman_from_mars/loop
 
 function story:orantes/statement_go_back_to_old_home/loop
@@ -63,11 +63,6 @@ function particle:resistance
 function system:orantes/city_splash
 
 function system:orantes/big_tree_transfer_area
-
 #interaction
-function interaction:emera
-function interaction:lena
 function interaction:refueling
-function interaction:elevator_1f
 function interaction:statement_2
-function interaction:orantes_sky_wind_sword

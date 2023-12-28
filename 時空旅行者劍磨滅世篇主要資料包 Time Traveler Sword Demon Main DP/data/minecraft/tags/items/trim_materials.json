@@ -1,7 +1,10 @@
 {
   "values": [
     "minecraft:sculk",
+    "minecraft:blackstone",
     "minecraft:pink_wool",
+    "minecraft:cyan_wool",
+    "minecraft:brown_concrete",
 
     "minecraft:iron_ingot",
     "minecraft:copper_ingot",

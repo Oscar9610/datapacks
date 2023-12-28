@@ -1,0 +1,1 @@
+scoreboard players set #levi story 0

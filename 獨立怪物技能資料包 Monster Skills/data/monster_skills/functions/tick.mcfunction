@@ -1,7 +1,8 @@
-function monster_skills:monster/orantes/sculk_saboteur/loop
 function automations:orantes/shadow/summon/1
 function monster_skills:monster/boss/shadow/loop
-
+function monster_skills:monster/mini_boss/storm_keeper/skill1/loop
+function monster_skills:monster/orantes/sculk_saboteur/plain/loop
+function monster_skills:monster/orantes/sculk_saboteur/loop
 #針對怪物
 execute as @e[tag=monster.spawn] at @s run function monster_skills:monster/orantes/sculk_saboteur/value_set
 
@@ -15,7 +16,3 @@ scoreboard players remove @e[scores={monster.skill.cast.cd=0..}] monster.skill.c
 
 #怪物技能施法中
 scoreboard players remove @e[scores={monster.skill.casting=0..}] monster.skill.casting 1
-
-#怪物施法無法移動
-execute as @e[scores={monster.skill.cast.cd=20},tag=cast_no_move] at @s run data merge entity @s {NoAI:1b}
-execute as @e[scores={monster.skill.casting=0},tag=cast_no_move] at @s run data merge entity @s {NoAI:0b}

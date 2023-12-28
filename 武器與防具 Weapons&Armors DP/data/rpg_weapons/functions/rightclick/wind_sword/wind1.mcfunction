@@ -10,6 +10,5 @@ execute as @e[type=armor_stand,scores={duration=20},tag=wind_sword_skill_2] at @
 kill @e[type=armor_stand,scores={duration=20..},tag=wind_sword_skill_2]
 
 execute as @e[tag=wind_sword_skill_2] at @s run tp @s ^ ^ ^0.6
-execute as @e[tag=wind_sword_skill_2] at @s positioned ~ ~1 ~ run function particle:wand_skill_1
 
 execute as @e[type=armor_stand,limit=1,sort=nearest,tag=Duration,tag=wind_sword_skill_2] run schedule function rpg_weapons:rightclick/wind_sword/wind1 0.05s

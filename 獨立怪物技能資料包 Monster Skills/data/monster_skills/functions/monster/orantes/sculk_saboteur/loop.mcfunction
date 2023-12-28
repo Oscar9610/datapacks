@@ -12,4 +12,3 @@ execute as @e[tag=sculk_saboteur,tag=!tamp] at @s unless entity @a[distance=..15
 execute as @e[tag=sculk_saboteur,tag=!tamp] at @s unless entity @a[distance=..15] run tag @s add tamp
 execute as @e[tag=sculk_saboteur,tag=tamp] at @s if entity @a[distance=..15] run tag @s add monster.spawn
 execute as @e[tag=sculk_saboteur,tag=tamp] at @s if entity @a[distance=..15] run tag @s remove tamp
-function monster_skills:monster/orantes/sculk_saboteur/plain/loop

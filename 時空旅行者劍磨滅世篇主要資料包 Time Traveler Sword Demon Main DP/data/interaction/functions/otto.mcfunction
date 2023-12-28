@@ -1,0 +1,5 @@
+execute as @e[type=minecraft:interaction,tag=otto.interaction] at @s if data entity @s interaction.timestamp if score #statement_is_missing story_stage matches 0..1 if score #orantes_main story_stage matches -2..1 if data entity @s interaction.timestamp run tag @e[type=armor_stand,distance=..2,tag=otto,limit=1,sort=nearest] add facing
+execute as @e[type=minecraft:interaction,tag=otto.interaction] if data entity @s interaction.timestamp if score #statement_is_missing story_stage matches 0..1 if score #orantes_main story_stage matches -2..1 if data entity @s interaction.timestamp run function story:orantes/npc/otto/1
+execute as @e[type=minecraft:interaction,tag=otto.interaction] if data entity @s interaction.timestamp run data remove entity @s interaction
+
+schedule function interaction:otto 1t

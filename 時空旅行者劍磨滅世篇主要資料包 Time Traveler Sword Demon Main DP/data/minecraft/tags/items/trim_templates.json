@@ -1,8 +1,9 @@
 {
   "values": [
     "minecraft:sculk",
+    "minecraft:blackstone",
     "minecraft:pink_wool",
-
+    "minecraft:brown_concrete",
     "minecraft:ward_armor_trim_smithing_template",
     "minecraft:spire_armor_trim_smithing_template",
     "minecraft:coast_armor_trim_smithing_template",

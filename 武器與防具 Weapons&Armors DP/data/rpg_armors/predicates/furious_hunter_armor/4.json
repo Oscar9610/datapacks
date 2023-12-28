@@ -1,0 +1,33 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {
+        "head": {
+          "items": [
+            "minecraft:netherite_helmet"
+          ],
+          "nbt": "{furious_hunter:1b}"
+        },
+        "chest": {
+          "items": [
+            "minecraft:netherite_chestplate"
+          ],
+          "nbt": "{furious_hunter:1b}"
+        },
+        "legs": {
+          "items": [
+            "minecraft:netherite_leggings"
+          ],
+          "nbt": "{furious_hunter:1b}"
+        },
+        "feet": {
+          "items": [
+            "minecraft:netherite_boots"
+          ],
+          "nbt": "{furious_hunter:1b}"
+        }
+      }
+    }
+  }
+  
