@@ -15,3 +15,5 @@ scoreboard players set #automations.orantes.potion automations.boss.count 1
 scoreboard players set #automations.orantes.potion automations.boss_time 0
 scoreboard players set #automations.orantes.storm_keeper automations.boss.count 1
 scoreboard players set #automations.orantes.storm_keeper automations.boss_time 0
+scoreboard players set #automations.orantes.atar automations.boss.count 1
+scoreboard players set #automations.orantes.atar automations.boss_time 0

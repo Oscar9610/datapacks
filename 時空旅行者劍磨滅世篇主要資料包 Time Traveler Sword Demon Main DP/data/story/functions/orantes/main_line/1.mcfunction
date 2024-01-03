@@ -11,6 +11,7 @@ execute if score orantes story matches 2 run tellraw @a[tag=!op] {"text":"［希
 execute if score orantes story matches 3 run tellraw @a[tag=!op] {"text":"［希爾］我們過去看看！"}
 execute if score orantes story matches 4 run tellraw @a[tag=!op] {"text":"【目標】前往奧蘭蒂斯城市！","color":"gold"}
 execute if score orantes story matches 4 in game_map:orantes run function story:orantes/main_line/statement_is_missing/summon_statement_grandpa
+execute if score orantes story matches 4 run scoreboard players set #go_orantes_city global.advancements 1
 execute if score orantes story matches 4 run effect give @e[tag=main_line.statement_grandpa] glowing 15 1 true
 
 execute if score orantes story matches 4 run scoreboard players add orantes story 1

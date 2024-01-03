@@ -17,7 +17,9 @@ scoreboard players set #businessman_from_mars story_stage 0
 scoreboard players set #statement_is_missing story_stage 0
 scoreboard players set #lost_guardian story_stage 0
 scoreboard players set #rescue_statement global.advancements 0
+scoreboard players set #statement_go_back_to_old_home global.advancements 0
 scoreboard players set #statement_is_missing global.advancements 0
+scoreboard players set #go_orantes_city global.advancements 0
 
 xp set @a 0 levels
 xp set @a 0 points
@@ -27,7 +29,7 @@ advancement revoke @a only story:orantes_start
 advancement revoke @a only story:traded_rpg_weapons
 advancement revoke @a only task:orantes/main_mission/rescue_statement
 advancement revoke @a only task:orantes/branch_line/statement_is_missing
-
+advancement revoke @a only task:orantes/branch_line/statement_go_back_to_old_home
 advancement revoke @a only advancements:chicken
 
 tag @a remove businessman_from_mars

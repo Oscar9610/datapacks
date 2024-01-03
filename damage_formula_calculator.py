@@ -36,7 +36,12 @@ print("讓你快速計算此地圖武器造成的傷害 d(`･∀･)b ")
 print("\n" + "技能傷害公式計算方式: 玩家攻擊力 * 武器倍率 / 100" + "\n")
 print("============================================================" + "\n")
 
-player_attack = int(input("輸入玩家攻擊力:"))
-weapon_damage_percentage = int(input("輸入武器造成的傷害倍率:"))
-damage = (player_attack*weapon_damage_percentage/100)
-print(round(damage))
+while(True):
+    try:
+        player_attack = int(input("輸入玩家攻擊力:"))
+        weapon_damage_percentage = int(input("輸入武器造成的傷害倍率(%):"))
+        damage = (player_attack*weapon_damage_percentage/100)
+        print(round(damage))
+        print("\n")
+    except:
+        print("\n請不要輸入非數字的字串 !\n")

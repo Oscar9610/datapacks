@@ -6,6 +6,7 @@
 execute if score core story matches 37 run tellraw @a[tag=!op] {"text":"［希爾］保護封印的守護者都解決了"}
 execute if score core story matches 38 run tellraw @a[tag=!op] {"text":"［希爾］我們回去找陳述爺爺吧"}
 execute if score core story matches 39 run tellraw @a[tag=!op] {"text":"【目標】回去找陳述爺爺！","color":"gold"}
+execute if score core story matches 39 run scoreboard players set #orantes_main story_stage 15
 
 #循環偵測
 #loop

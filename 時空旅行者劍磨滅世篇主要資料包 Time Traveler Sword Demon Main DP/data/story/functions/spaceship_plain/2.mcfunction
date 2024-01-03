@@ -1,4 +1,4 @@
-execute if score spaceship_plain story matches 11 run tellraw @a {"text":"【SKIP】(點擊跳過劇情對話) ","color":"light_purple","clickEvent":{"action":"run_command","value":"/scoreboard players set spaceship_plain story 1"}}
+execute if score spaceship_plain story matches 11 run tellraw @a {"text":"【SKIP】(點擊跳過劇情對話) ","color":"light_purple","clickEvent":{"action":"run_command","value":"/scoreboard players set spaceship_plain story 4"}}
 execute if score spaceship_plain story matches 10 run playsound minecraft:block.note_block.chime voice @a[distance=..8] ~ ~1 ~ 999999 1 1
 execute if score spaceship_plain story matches 10 run tellraw @a {"text":"［希爾］我們到啦"}
 execute if score spaceship_plain story matches 9 run tellraw @a {"text":"［希爾］這裡是太空站「奧莉亞」剛剛用的道具是一個叫 阿斯卡 做的傳送石，它可以傳送到各個星球中，註冊時空旅行者身分證地圖區的萊納才會發給你"}

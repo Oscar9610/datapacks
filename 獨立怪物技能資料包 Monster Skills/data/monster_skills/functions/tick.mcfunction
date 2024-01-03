@@ -3,6 +3,7 @@ function monster_skills:monster/boss/shadow/loop
 function monster_skills:monster/mini_boss/storm_keeper/skill1/loop
 function monster_skills:monster/orantes/sculk_saboteur/plain/loop
 function monster_skills:monster/orantes/sculk_saboteur/loop
+function monster_skills:monster/orantes/sculk_priest/loop
 #針對怪物
 execute as @e[tag=monster.spawn] at @s run function monster_skills:monster/orantes/sculk_saboteur/value_set
 

@@ -3,6 +3,7 @@
 
 
 execute if score orantes story matches 5 positioned -64 63 5 in game_map:orantes run effect clear @a[distance=..30]
+execute if score orantes story matches 5 positioned -64 63 5 in game_map:orantes run scoreboard players add #orantes_main story_stage 1
 
 #生成怪物、陳述展示用實體
 #summon monster, statement display

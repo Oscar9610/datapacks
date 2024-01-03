@@ -1,0 +1,1 @@
+execute at @a anchored eyes positioned ^ ^ ^2.5 as @e[nbt={HurtTime:10s},distance=..3] store result score @s[type=!player] health run data get entity @s[type=!player] Health

@@ -8,16 +8,15 @@ execute positioned 6 63 177 in game_map:orantes as @a[distance=..20] if score co
 execute positioned 6 63 177 in game_map:orantes as @a[distance=..20] if score core story matches 2 run tellraw @s {"text":"［陳述爺爺］我不是說好不能亂跑出去嗎，你怎麼又來了"}
 execute positioned 6 63 177 in game_map:orantes as @a[distance=..20] if score core story matches 3 run tellraw @s {"text":"［陳述］對不起...."}
 execute positioned 6 63 177 in game_map:orantes as @a[distance=..20] if score core story matches 4 run tellraw @s {"text":"［陳述爺爺］抱歉，讓你見笑了，請進來坐坐吧"}
-execute positioned 6 63 177 in game_map:orantes as @a[distance=..20] if score core story matches 4 run title @s title {"text":"\uE002"}
-execute positioned 6 63 177 in game_map:orantes as @a[distance=..20] if score core story matches 4 run title @s times 40 40 20
+execute positioned 6 63 177 in game_map:orantes as @a[distance=..20] if score core story matches 4 run function player:transitions
 
 #轉移位置至爺爺家
 #Transfer location to grandpa’s house
 execute if score core story matches 5 run kill @e[tag=statement_3]
-execute positioned 6 63 177 as @a[tag=p1,distance=..20] if dimension game_map:orantes if score core story matches 5 run ride @s mount @e[limit=1,tag=chair1,tag=grandpa_home,sort=random]
-execute positioned 6 63 177 as @a[tag=p2,distance=..20] if dimension game_map:orantes if score core story matches 5 run ride @s mount @e[limit=1,tag=chair2,tag=grandpa_home,sort=random]
-execute positioned 6 63 177 as @a[tag=p3,distance=..20] if dimension game_map:orantes if score core story matches 5 run ride @s mount @e[limit=1,tag=chair3,tag=grandpa_home,sort=random]
-execute positioned 6 63 177 as @a[tag=p4,distance=..20] if dimension game_map:orantes if score core story matches 5 run ride @s mount @e[limit=1,tag=chair4,tag=grandpa_home,sort=random]
+execute positioned 6 63 177 as @a[tag=p1,distance=..20] if dimension game_map:orantes if score core story matches 5 run tp @s -1 63 167 0 0
+execute positioned 6 63 177 as @a[tag=p2,distance=..20] if dimension game_map:orantes if score core story matches 5 run tp @s -2 63 167 0 0
+execute positioned 6 63 177 as @a[tag=p3,distance=..20] if dimension game_map:orantes if score core story matches 5 run tp @s -3 63 167 0 0
+execute positioned 6 63 177 as @a[tag=p4,distance=..20] if dimension game_map:orantes if score core story matches 5 run tp @s -4 63 168 -90 0
 
 #劇情
 #story

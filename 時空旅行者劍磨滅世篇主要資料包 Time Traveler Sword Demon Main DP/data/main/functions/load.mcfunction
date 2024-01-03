@@ -16,7 +16,9 @@ schedule function main:timer 1s
 schedule function rpg_weapons:timer 1s
 schedule function rpg_weapons:cd/all_weapons 1s
 
+schedule function player:set_player_spawnpoint 60s
 #loop
+schedule function player:set_player_spawnpoint 60s
 schedule function system:tool/forging_table/loop 1t
 schedule function story:orantes/branch_line/lost_guardian/1 3s
 schedule function system:tool/forging_table/use 1t

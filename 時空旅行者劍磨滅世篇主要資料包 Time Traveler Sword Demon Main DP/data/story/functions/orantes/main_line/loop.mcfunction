@@ -13,4 +13,11 @@ execute positioned 6 63 177 in game_map:orantes as @a[distance=..15] if score #o
 execute as @e[type=minecraft:interaction,tag=otto.interaction] at @s unless entity @a[distance=..10] run scoreboard players set #otto story 0
 execute as @e[type=armor_stand,tag=otto] at @s unless entity @a[distance=..10] run tag @s remove facing
 
+#陳述不見了？！
+#(靠近區域生成爺爺 離開區域移除爺爺)
+
+execute positioned 6 63 177 in game_map:orantes as @a[distance=..15] if score #orantes_main story_stage matches 15 run function story:orantes/main_line/place_of_trial/1
+
+
+
 schedule function story:orantes/main_line/loop 1t
