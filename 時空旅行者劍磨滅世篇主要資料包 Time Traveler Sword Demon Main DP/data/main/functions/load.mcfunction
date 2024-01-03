@@ -25,11 +25,16 @@ schedule function system:tool/forging_table/use 1t
 schedule function entity:knockup_loop 1t
 schedule function system:tool/forging_table/loop 1t
 schedule function system:tool/functions/forging_table 1t
+schedule function interaction:library/lectern/1 1t
+schedule function interaction:library/lectern/2 1t
+schedule function interaction:library/lectern/3 1t
+schedule function interaction:library/lectern/4 1t
 schedule function interaction:emera 1t
 schedule function interaction:lena 1t
 schedule function interaction:statement_grandpa 1t
 schedule function interaction:otto 1t
 schedule function interaction:lost_guardian 1t
+schedule function interaction:library/lectern/1 1t
 schedule function story:orantes/main_line/loop 1t
 schedule function story:orantes/main_line/statement_go_back_to_old_home/loop 1t
 schedule function entity:facing 1t

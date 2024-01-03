@@ -3,7 +3,7 @@
     "icon": {
       "item": "minecraft:campfire"
     },
-    "title": "[支線] 在洞穴偶遇陳述？！",
+    "title": "[主線] 在洞穴偶遇陳述？！",
     "description": "你找到了陳述，陳述在小避難所想拿回東西，究竟會發生甚麼事呢",
     "background": "minecraft:textures/gui/advancements/backgrounds/prismarine.png",
     "frame": "task",
